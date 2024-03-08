@@ -1,8 +1,13 @@
 import requests
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from collections import Counter
+from collections import defaultdict
 from datetime import datetime
 import os
+
+
 NOTION_TOKEN = os.getenv('NOTION_TOKEN')
 DATABASE_ID = os.getenv('DATABASE_ID')
 
@@ -126,17 +131,52 @@ def applied_state_graph(title, data):
     # function to show the plot
     plt.show()
 
+def get_dates(pages):
+    dates = []
+    for page in pages:
+        dates.append(page["created_time"].split("T")[0])
+    return dict(Counter(dates))
+
+def added_to_notion_graph(title, data):
+    # Aggregate counts into buckets of months
+    monthly_counts = defaultdict(int)
+    for date_str, count in data.items():
+        date = datetime.strptime(date_str, '%Y-%m-%d')
+        month_year = date.strftime('%Y-%m')
+        monthly_counts[month_year] += count
+    months = list(monthly_counts.keys())[::-1]
+    counts = list(monthly_counts.values())
+
+
+    plt.plot(months, counts, marker=',', linestyle='-')
+
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
+
+    # Set labels and title
+    plt.xlabel('Date')
+    plt.ylabel('Count')
+    plt.title(title)
+
+    # Display the plot
+    plt.tight_layout()
+    plt.show()
+
 def main():
     pages = get_pages()
+    
+    data = get_dates(pages)
+    added_to_notion_graph("Dates applied", data)
     # status_data = get_status_data(pages)
     # graph1(status_data)
 
     # location_data = get_state_data_applied(pages)
     # applied_state_graph('Applications Location - Applied', location_data)
 
-    location_data = get_state_data_completed(pages)
-    applied_state_graph('Applications Location - Applied + Rejected', location_data)
-
+    # location_data = get_state_data_completed(pages)
+    # applied_state_graph('Applications Location - Applied + Rejected', location_data)
 
 if __name__ == "__main__":
     main()
+
+
