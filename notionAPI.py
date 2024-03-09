@@ -55,7 +55,7 @@ def get_state_data_applied(pages):
     data = []
     for page in pages:
         props = page["properties"]
-        if props.get('STATUS',{}).get('select',{}).get('name',{}) == "Applied":
+        if props.get('STATUS',{}).get('select',{}).get('name',{}) == "Applied" or props.get('STATUS',{}).get('select',{}).get('name',{}) == "Rejected":
             cur_row = props.get('STATE',{}).get('multi_select',{})
             for i in range(len(cur_row)):
                 data.append(cur_row[i].get('name'))
@@ -74,7 +74,7 @@ def get_state_data_completed(pages):
 
     return data
 
-def graph1(data):
+def graph1(title, data):
     left = [1,2,3,4]
     height = []
     tick_label = ['Applied', 'Rejected', 'Closed', 'Tech Assessment -> Rejected']
@@ -102,31 +102,46 @@ def graph1(data):
     # naming the y-axis
     plt.ylabel('Number')
     # plot title
-    plt.title('Applications overview')
+    plt.title(title)
     
     # function to show the plot
     plt.show()
 
 def applied_state_graph(title, data):
+
+    # Aggregate counts into buckets of months
     state_data = dict(Counter(data))
+
+    # Sort the dictionary by values
+    sorted_dict = sorted(state_data.items(), key=lambda x: x[1], reverse=True) 
+    
+    # Extract the state names and counts into their own lists
+    height = [i[1] for i in sorted_dict]
+    tick_labels = [i[0] for i in sorted_dict]
+
+    # Create the bar chart values
     x_values = range(len(state_data))
 
+    # Create the bar chart
     plt.bar(
         x = x_values,
-        height = list(state_data.values()), 
-        tick_label = list(state_data.keys()),
+        height = height, 
+        tick_label = tick_labels,
         width = 0.8, 
         color = ['blue', 'red', 'orange', 'yellow']
     )
+
     # naming the x-axis
     plt.xlabel('State')
+
     # naming the y-axis
     plt.ylabel('Number')
+
     # plot title
     plt.title(title)
     
     # Adjust labels
-    plt.xticks(x_values, state_data.keys(), rotation=45, ha='right')  # Rotate the labels for better readability
+    plt.xticks(x_values, tick_labels, rotation=45, ha='right')  # Rotate the labels for better readability
 
     # function to show the plot
     plt.show()
@@ -163,18 +178,18 @@ def added_to_notion_graph(title, data):
     plt.show()
 
 def main():
+    # Gets the data in the form of pages
     pages = get_pages()
     
-    data = get_dates(pages)
-    added_to_notion_graph("Dates applied", data)
+    # dates_data = get_dates(pages)
+    # added_to_notion_graph("Dates applied", dates_data)
+    
     # status_data = get_status_data(pages)
-    # graph1(status_data)
+    # graph1('Applications Status Overview',status_data)
 
-    # location_data = get_state_data_applied(pages)
-    # applied_state_graph('Applications Location - Applied', location_data)
+    location_data = get_state_data_applied(pages)
+    applied_state_graph('Applications Location - Applied', location_data)
 
-    # location_data = get_state_data_completed(pages)
-    # applied_state_graph('Applications Location - Applied + Rejected', location_data)
 
 if __name__ == "__main__":
     main()
