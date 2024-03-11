@@ -6,6 +6,21 @@ from collections import Counter
 from collections import defaultdict
 from datetime import datetime
 import os
+from flask import Flask
+from flask_cors import CORS
+
+
+app = Flask(__name__)
+CORS(app)
+
+
+@app.route('/', methods=['GET'])
+def retrieve_data():
+    pages = get_pages()
+    status_data = get_status_data(pages)
+    print(status_data)
+    return '{"results":"'+str(status_data)+'"}'
+
 
 
 NOTION_TOKEN = os.getenv('NOTION_TOKEN')
@@ -184,14 +199,14 @@ def main():
     # dates_data = get_dates(pages)
     # added_to_notion_graph("Dates applied", dates_data)
     
-    # status_data = get_status_data(pages)
+    status_data = get_status_data(pages)
+    print(status_data)
     # graph1('Applications Status Overview',status_data)
 
-    location_data = get_state_data_applied(pages)
-    applied_state_graph('Applications Location - Applied', location_data)
+    # location_data = get_state_data_applied(pages)
+    # applied_state_graph('Applications Location - Applied', location_data)
 
 
 if __name__ == "__main__":
-    main()
-
-
+    # main()
+    app.run(port=5328)
