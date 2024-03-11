@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 
-
 export default function Home() {
 
   const [data, setData] = useState([]);
@@ -25,16 +24,17 @@ export default function Home() {
     }
   };
 
+  // console.log(data.results)
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-6xl font-bold">Welcome to my website</h1>
+      <h1 className="text-6xl font-bold">Summer 2024 Internship Application Tracker</h1>
       <div className="flex flex-col items-center">
-        <h2 className="text-4xl font-bold mt-8">Hi, I'm John Doe</h2>
-        <p className="text-2xl text-center mt-4">
-          I'm a web developer and I love building websites and web applications.
-        </p>
-        {data.results}
+        <h2 className="text-4xl font-bold mt-8">Data</h2>
+        
+        {data.results == null ? <p>Loading...</p> : data.results}
+
+        
       </div>
     </main>
   );
