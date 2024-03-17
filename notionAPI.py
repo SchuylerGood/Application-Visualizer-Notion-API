@@ -162,27 +162,8 @@ def get_dates(pages):
 #     plt.tight_layout()
 #     plt.show()
 
-def data_to_dataframe(pages):
-    # Instantiate new Data Frame with the Columns
-    applications_datagrame = pd.DataFrame(
-        {
-            "STATUS":[],
-            "SIMPLIFY":[],
-            "COMPANY":[],
-            "CATEGORY":[],
-            "TITLE":[],
-            "TYPE":[],
-            "URL":[],
-            "CITY":[],
-            "STATE":[],
-            "COUNTRY":[],
-        }
-    )
-    
 
-    # Iterate for every piece of data in the database
-    for page_num in range(len(pages)):
-        
+def get_row_data(pages, page_num):
         # Iterate over each status tag
         status_list = pages[page_num]["properties"]["STATUS"]["multi_select"]
         new_status_list = []
@@ -256,13 +237,31 @@ def data_to_dataframe(pages):
             "COUNTRY":country,
         }
         
-        # Add row to dataframe
-        applications_datagrame.loc[len(applications_datagrame)] = new_row
+        return new_row
+
+def data_to_dataframe(pages):
+    applications_datagrame = pd.DataFrame(
+        {
+            "STATUS":[],
+            "SIMPLIFY":[],
+            "COMPANY":[],
+            "CATEGORY":[],
+            "TITLE":[],
+            "TYPE":[],
+            "URL":[],
+            "CITY":[],
+            "STATE":[],
+            "COUNTRY":[],
+        }
+    )
+    
+    # Iterate for every piece of data in the database
+    for page_num in range(len(pages)):        
+        applications_datagrame.loc[len(applications_datagrame)] = get_row_data(pages, page_num)
         applications_datagrame = applications_datagrame.reset_index(drop=True)
 
     return applications_datagrame
         
-
 def console_program():
     print("Load Application Data from Spreadsheet? [Y/N]")
     csv_val = input()
@@ -286,7 +285,7 @@ def console_program():
         print("choose which graph to view:")
         print("=-=-=-=-=-=-=-=-=-=-=-=-=-=")
         print("[ 1 ] Date Applied Line Graph")
-        print("[ 2 ] Date Applied Line Graph")
+        print("[ 2 ] application_status_graph")
         print("[ 3 ] Date Applied Line Graph")
         print("[ Q ] Quit the program")
         
@@ -297,19 +296,18 @@ def console_program():
                 # date_applied_line_graph()
                 exit_flag = 0
             case "2":
-                application_status_graph()
+                application_status_graph(df_applications)
             case "3":
                 applied_state_graph('Applications Location - Applied')
             case "Q":
+                exit_flag = 1
+            case "q":
                 exit_flag = 1
             case _:
                 print("\nThat option did not work, please try again:\n")
 
 def main():
     console_program()
-    # df_applications = pd.read_csv('application_data.csv')
-    # application_status_graph(df_applications)
-
 
 if __name__ == "__main__":
     main()
