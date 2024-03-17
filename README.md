@@ -1,6 +1,6 @@
-# Notion Job Tracker: Planning and Tracking Job Applications Seamlessly
-
 ![Template Image](https://s3.us-west-2.amazonaws.com/public.notion-static.com/template/b89bd3b4-0075-4d67-9dc0-415d509ccaef/1710682724548/desktop.jpg)
+
+# Notion Job Tracker: Planning and Tracking Job Applications Seamlessly
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
@@ -11,9 +11,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.5.4-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2.2.19-blue)
 
-
 ## Project Description
-
 The Notion Job Tracker is a comprehensive tool designed to streamline the job application process for job, internship, and apprenticeship seekers. With this tool, users can organize their job applications efficiently, collect relevant data, and visualize key metrics to track their progress. Utilizing a Notion template coupled with a program leveraging the Notion API, this tool offers a seamless experience for users to manage their job search effectively, empowering them to make informed decisions and optimize their career journey.
 
 ## How to Install the Project
@@ -62,9 +60,7 @@ bun dev
 ```
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
 ## How to Use this project
 Once the tool is successfully installed and working, you can use this to track, visualize, and share graphs of your job application metrics.
-
 
 ![Cover Image](https://schuylergood.com/static/media/NotionV2.06844d085c9b993eed03.png)
