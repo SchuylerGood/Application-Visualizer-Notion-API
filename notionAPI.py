@@ -55,31 +55,53 @@ def get_pages(num_pages=None):
     return results
 
 def application_status_graph(df_applications):
-    left = [1,2,3,4]
+    left = [1,2,3,4,5]
     height = []
-    tick_label = ['Applied', 'Rejected', 'Closed', 'Tech Assessment -> Rejected']
-
+    tick_label = ['Added', 'Applied', 'Rejected', 'Closed', 'Coffee Chat']
     status_list = df_applications["STATUS"].tolist()
+
+    need_to_apply = 0
+    applied = 0
+    rejected = 0
+    closed = 0
+    coffee_chat = 0
+
+    for i in range(len(status_list)):
+        try:
+            val = status_list[i]
+            if "Need to Apply" in val:
+                need_to_apply += 1
+            if "Applied" in val:
+                applied += 1
+            if "Rejected" in val:
+                rejected += 1
+            if "Closed" in val:
+                closed += 1
+            if "Coffee Chat" in val:
+                coffee_chat += 1
+        except:
+            continue
     
-    height.append(status_list.count("Applied"))
-    height.append(status_list.count("Rejected"))
-    height.append(status_list.count("Closed"))
-    # height.append(status_list.count("Tech Assessment -> Scheduled"))
-    # height.append(status_list.count("Tech Assessment -> Complete"))
-    height.append(status_list.count("Tech Assessment -> Rejected"))
-    # height.append(status_list.count("Interview 1 -> Scheduled"))
-    # height.append(status_list.count("Interview 1 -> Complete"))
-    # height.append(status_list.count("Interview 1 -> Rejected"))
+    height.append(need_to_apply)
+    height.append(applied)
+    height.append(rejected)
+    height.append(closed)
+    height.append(coffee_chat)
 
     plt.bar(
         left, 
         height, 
         tick_label = tick_label,
         width = 0.8, 
-        color = ['blue', 'red', 'orange', 'yellow']
+        color = ['blue', 'green', 'red', 'orange', 'purple'],
     )
+
+    for i, v in enumerate(height):
+        plt.text(left[i], v + 0.1, str(v), ha='center', va='bottom')
+
+
     # naming the x-axis
-    plt.xlabel('Status')
+    plt.xlabel('Job Application Status')
     # naming the y-axis
     plt.ylabel('Number')
     # plot title
@@ -299,11 +321,11 @@ def cli_program():
 
 def testing():
     # TESTING ONLY
-    pages = get_pages()
+    # pages = get_pages()
     df_applications = pd.read_csv('application_data.csv')
-    applied_state_graph(df_applications)
-    date_applied_line_graph(df_applications)
-    print(df_applications["TIME_CREATED"].tolist())
+    # applied_state_graph(df_applications)
+    # date_applied_line_graph(df_applications)
+    application_status_graph(df_applications)
 
 def main():
     cli_program()
