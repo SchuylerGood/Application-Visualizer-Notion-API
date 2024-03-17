@@ -9,7 +9,6 @@ import os
 from flask import Flask
 from flask_cors import CORS
 
-
 app = Flask(__name__)
 CORS(app)
 
@@ -58,52 +57,22 @@ def get_pages(num_pages=None):
 
     return results
 
-def get_status_data(pages):
-    data = []
-    for page in pages:
-        props = page["properties"]
-        data.append(props.get('STATUS',{}).get('select',{}).get('name',{}))
-
-    return data
-
-def get_state_data_applied(pages):
-    data = []
-    for page in pages:
-        props = page["properties"]
-        if props.get('STATUS',{}).get('select',{}).get('name',{}) == "Applied" or props.get('STATUS',{}).get('select',{}).get('name',{}) == "Rejected":
-            cur_row = props.get('STATE',{}).get('multi_select',{})
-            for i in range(len(cur_row)):
-                data.append(cur_row[i].get('name'))
-
-    return data
-
-def get_state_data_completed(pages):
-    data = []
-    acceptable_status = ["Applied", "Rejected"]
-    for page in pages:
-        props = page["properties"]
-        if props.get('STATUS',{}).get('select',{}).get('name',{}) in acceptable_status:
-            cur_row = props.get('STATE',{}).get('multi_select',{})
-            for i in range(len(cur_row)):
-                data.append(cur_row[i].get('name'))
-
-    return data
-
-def graph1(title, data):
+def application_status_graph(df_applications):
     left = [1,2,3,4]
     height = []
     tick_label = ['Applied', 'Rejected', 'Closed', 'Tech Assessment -> Rejected']
 
-
-    height.append(data.count("Applied"))
-    height.append(data.count("Rejected"))
-    height.append(data.count("Closed"))
-    # height.append(data.count("Tech Assessment -> Scheduled"))
-    # height.append(data.count("Tech Assessment -> Complete"))
-    height.append(data.count("Tech Assessment -> Rejected"))
-    # height.append(data.count("Interview 1 -> Scheduled"))
-    # height.append(data.count("Interview 1 -> Complete"))
-    # height.append(data.count("Interview 1 -> Rejected"))
+    status_list = df_applications["STATUS"].tolist()
+    
+    height.append(status_list.count("Applied"))
+    height.append(status_list.count("Rejected"))
+    height.append(status_list.count("Closed"))
+    # height.append(status_list.count("Tech Assessment -> Scheduled"))
+    # height.append(status_list.count("Tech Assessment -> Complete"))
+    height.append(status_list.count("Tech Assessment -> Rejected"))
+    # height.append(status_list.count("Interview 1 -> Scheduled"))
+    # height.append(status_list.count("Interview 1 -> Complete"))
+    # height.append(status_list.count("Interview 1 -> Rejected"))
 
     plt.bar(
         left, 
@@ -117,7 +86,7 @@ def graph1(title, data):
     # naming the y-axis
     plt.ylabel('Number')
     # plot title
-    plt.title(title)
+    plt.title("Application Status Graph")
     
     # function to show the plot
     plt.show()
@@ -167,46 +136,181 @@ def get_dates(pages):
         dates.append(page["created_time"].split("T")[0])
     return dict(Counter(dates))
 
-def added_to_notion_graph(title, data):
-    # Aggregate counts into buckets of months
-    monthly_counts = defaultdict(int)
-    for date_str, count in data.items():
-        date = datetime.strptime(date_str, '%Y-%m-%d')
-        month_year = date.strftime('%Y-%m')
-        monthly_counts[month_year] += count
-    months = list(monthly_counts.keys())[::-1]
-    counts = list(monthly_counts.values())
+# def date_applied_line_graph():
+    
+#     # Aggregate counts into buckets of months
+#     monthly_counts = defaultdict(int)
+#     for date_str, count in data.items():
+#         date = datetime.strptime(date_str, '%Y-%m-%d')
+#         month_year = date.strftime('%Y-%m')
+#         monthly_counts[month_year] += count
+#     months = list(monthly_counts.keys())[::-1]
+#     counts = list(monthly_counts.values())
 
 
-    plt.plot(months, counts, marker=',', linestyle='-')
+#     plt.plot(months, counts, marker=',', linestyle='-')
 
-    # Rotate x-axis labels for better readability
-    plt.xticks(rotation=45, ha='right')
+#     # Rotate x-axis labels for better readability
+#     plt.xticks(rotation=45, ha='right')
 
-    # Set labels and title
-    plt.xlabel('Date')
-    plt.ylabel('Count')
-    plt.title(title)
+#     # Set labels and title
+#     plt.xlabel('Date')
+#     plt.ylabel('Count')
+#     plt.title(title)
 
-    # Display the plot
-    plt.tight_layout()
-    plt.show()
+#     # Display the plot
+#     plt.tight_layout()
+#     plt.show()
+
+def data_to_dataframe(pages):
+    # Instantiate new Data Frame with the Columns
+    applications_datagrame = pd.DataFrame(
+        {
+            "STATUS":[],
+            "SIMPLIFY":[],
+            "COMPANY":[],
+            "CATEGORY":[],
+            "TITLE":[],
+            "TYPE":[],
+            "URL":[],
+            "CITY":[],
+            "STATE":[],
+            "COUNTRY":[],
+        }
+    )
+    
+
+    # Iterate for every piece of data in the database
+    for page_num in range(len(pages)):
+        
+        # Iterate over each status tag
+        status_list = pages[page_num]["properties"]["STATUS"]["multi_select"]
+        new_status_list = []
+        for i in status_list:
+            new_status_list.append(i["name"])
+        status_string = ','.join(str(e) for e in new_status_list)
+
+
+        # Iterate over each category tag
+        category_list = pages[page_num]["properties"]["CATEGORY"]["multi_select"]
+        new_category_list = []
+        for i in category_list:
+            new_category_list.append(i["name"])
+        category_string = ','.join(str(e) for e in new_category_list)
+
+
+        # Iterate over each state tag
+        state_list = pages[page_num]["properties"]["STATE"]["multi_select"]
+        new_state_list = []
+        for i in state_list:
+            new_state_list.append(i["name"])
+        state_string = ','.join(str(e) for e in new_state_list)
+
+        # Try to access company name
+        try:
+            company = pages[page_num]["properties"]["COMPANY"]["rich_text"][0]["text"]["content"]
+        except IndexError:
+            company = ""
+
+        # Try to access title
+        try:
+            title = pages[page_num]["properties"]["TITLE"]["title"][0]["text"]["content"]
+        except IndexError:
+            title = ""
+
+        # Try to access City
+        try:
+            city = pages[page_num]["properties"]["CITY"]["rich_text"][0]["text"]["content"]
+        except IndexError:
+            city = ""
+
+        # Try to access Type
+        try:
+            type = pages[page_num]["properties"]["TYPE"]["select"]["name"]
+        except KeyError:
+            type = ""
+
+        # Try to access Country
+        try:
+            country = pages[page_num]["properties"]["COUNTRY"]["select"]["name"]
+        except KeyError:
+            country = ""
+            
+        # Try to access URL
+        try:
+            url = pages[page_num]["properties"]["URL"]["url"]
+        except KeyError:
+            url = ""
+
+        # Define the new row
+        new_row = {
+            "STATUS":status_string,
+            "SIMPLIFY":pages[page_num]["properties"]["SIMPLIFY"]["checkbox"],
+            "COMPANY":company,
+            "CATEGORY":category_string,
+            "TITLE":title,
+            "TYPE":type,
+            "URL":url,
+            "CITY":city,
+            "STATE":state_string,
+            "COUNTRY":country,
+        }
+        
+        # Add row to dataframe
+        applications_datagrame.loc[len(applications_datagrame)] = new_row
+        applications_datagrame = applications_datagrame.reset_index(drop=True)
+
+    return applications_datagrame
+        
+
+def console_program():
+    print("Load Application Data from Spreadsheet? [Y/N]")
+    csv_val = input()
+    
+    if csv_val == "N":
+        print("Loading data from API...\n")
+        pages = get_pages()
+        df_applications = data_to_dataframe(pages)
+        print("Data Succesfully loaded from the Notion API!\n")
+        df_applications.to_csv('application_data.csv')
+        print("Data Saved to csv file\n")
+        
+
+    else:
+        print("Loading data from previous session...\n")
+        df_applications = pd.read_csv('application_data.csv')
+    
+    exit_flag = 0
+    while exit_flag == 0:
+        
+        print("choose which graph to view:")
+        print("=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+        print("[ 1 ] Date Applied Line Graph")
+        print("[ 2 ] Date Applied Line Graph")
+        print("[ 3 ] Date Applied Line Graph")
+        print("[ Q ] Quit the program")
+        
+        choice = input()
+        
+        match choice:
+            case "1":
+                # date_applied_line_graph()
+                exit_flag = 0
+            case "2":
+                application_status_graph()
+            case "3":
+                applied_state_graph('Applications Location - Applied')
+            case "Q":
+                exit_flag = 1
+            case _:
+                print("\nThat option did not work, please try again:\n")
 
 def main():
-    # Gets the data in the form of pages
-    pages = get_pages()
-    
-    # dates_data = get_dates(pages)
-    # added_to_notion_graph("Dates applied", dates_data)
-    
-    status_data = get_status_data(pages)
-    print(status_data)
-    # graph1('Applications Status Overview',status_data)
-
-    # location_data = get_state_data_applied(pages)
-    # applied_state_graph('Applications Location - Applied', location_data)
+    console_program()
+    # df_applications = pd.read_csv('application_data.csv')
+    # application_status_graph(df_applications)
 
 
 if __name__ == "__main__":
-    # main()
-    app.run(port=5328)
+    main()
+    # app.run(port=5328)

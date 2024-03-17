@@ -1,0 +1,606 @@
+,STATUS,SIMPLIFY,COMPANY,CATEGORY,TITLE,TYPE,URL,CITY,STATE,COUNTRY
+0,Need to Apply,False,Lenovo,SWE,"Solutions Software Engineer Intern - Summer 2024
+",In-person,https://jobs.lenovo.com/en_US/careers/JobDetail/Solutions-Software-Engineer-Intern-Summer-2024/55407,Bellevue,WA,USA
+1,Need to Apply,False,Github,SWE,Software Engineer Intern,Remote,https://www.github.careers/careers-home/jobs/2787/job?utm_source=MarkBenliyan&iis=Job Board&iisn=Mark,,,USA
+2,Need to Apply,False,Soundcloud,Web Dev,Web Engineering Intern,In-person,https://boards.greenhouse.io/soundcloud71/jobs/7286241002,Los Angeles,CA,USA
+3,"Need to Apply,Applied",False,Rubrik,SWE,Customer Support Intern,Hybrid,https://app.ripplematch.com/v2/student/applications/applied,Morrisville,NC,USA
+4,Need to Apply,False,Dialouge,SWE,Software Engineer Intern,In-person,https://boards.greenhouse.io/dialoguehealthtechnologiesinc/jobs/5121523004?utm_medium=email&utm_source=Simplify&gh_src=Simplify#app,Montreal,QC,CAN
+5,"Need to Apply,Applied",False,Think Cell,SWE,C++ Internship (f/m/d),In-person,https://www.think-cell.com/en/career/jobs/cpp_internship?ec=vXfYZfMIH8LTtsUECmpmyJ9IAevlTcXJPD9M3MuF7pTc44T8ShPS2Jx0c38oQij8i3i4Yr7BAeirVgIgA57j70Y,Berlin,BB,DE
+6,"Need to Apply,Applied",False,Boston Red Sox,SWE,Software Engineer Intern,In-person,https://app.ripplematch.com/v2/student/applications/applied,Boston,MA,USA
+7,Need to Apply,True,Skydio,SWE,Wireless Software Engineer Intern,In-person,https://simplify.jobs/p/63c973ca-50e4-4917-911b-1089b021c0f8/Wireless-Software-Engineer-Intern,San Mateo,CA,USA
+8,Need to Apply,True,Dell,SWE,Intern Software Engineer,Remote,https://simplify.jobs/p/01091dd9-6adc-414b-a016-9b428c1f7aba/Intern-Software-Engineer,,,USA
+9,"Need to Apply,Applied",False,IBM,SWE,"2024 Summer Intern: Software Engineer (DATA&AI, SJ)",In-person,https://careers.ibm.com/job/19956300/2024-summer-intern-software-engineer-data-ai-sj-san-jose-ca/?codes=WEB_SEARCH_NA,San Jose,CA,USA
+10,"Need to Apply,Applied",False,IBM,SWE,2024 Summer Intern Technical Solutions Engineer,In-person,https://careers.ibm.com/job/20030397/2024-summer-intern-technical-solutions-engineer-remote/?codes=WEB_SEARCH_NA,Reston,VA,USA
+11,"Need to Apply,Closed",False,Mayo Clinic,"Artificial Intelligence,SWE",HTM Intern,In-person,https://jobs.mayoclinic.org/job/-/-/33647/59751826432?clickid=2d50e62a-3455-451d-baac-f63b81ae0367&p_sid=Ezn34gb&p_uid=SR7sludxKn&ss=paid&utm_campaign=mankato+2024&utm_content=pj_board&utm_medium=jobad&utm_source=ziprecruiter&dclid=CP_D_uHI8YQDFc2FpgQdAYkMmA,Mankato,MN,USA
+12,,False,,,,,,,,
+13,"Need to Apply,Applied",False,Visa,SWE,"Software Engineer, Intern - Summer 2024",In-person,https://jobs.smartrecruiters.com/Visa/743999971192223-software-engineer-intern-summer-2024?trid=4efee4ca-f1ec-489f-b811-533405de89ab,Bellevue,WA,USA
+14,"Need to Apply,Applied",False,Visa,SWE,"Software Engineer, Intern - Summer 2024",In-person,https://jobs.smartrecruiters.com/Visa/743999971184003-software-engineer-intern-summer-2024?trid=4efee4ca-f1ec-489f-b811-533405de89ab,Highlands Ranch,CO,USA
+15,Need to Apply,True,UserTesting,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/654eab9a-5027-4cf3-8c32-72d254e06336/Software-Engineer-Intern,Edinburgh,UK,UK
+16,Need to Apply,True,UserTesting,SWE,Software Developer Intern,In-person,https://simplify.jobs/p/b348ffda-e27d-45fe-85ad-01ddae008cde/Software-Developer-Intern,Edinburgh,UK,UK
+17,"Need to Apply,Applied",True,Docker,"Product Manager,Data",Product Analytics Intern,Remote,https://simplify.jobs/p/f0c437d7-ceec-4449-8db9-d0d7768ae2a8/Product-Analytics-Intern,,,USA
+18,Need to Apply,True,Visa,SWE,Software Engineer – Intern,In-person,https://simplify.jobs/p/26ac6d46-4b49-4636-9a8a-e40e54fce4a3/Software-Engineer--Intern,Austin,TX,USA
+19,"Need to Apply,Applied,Rejected",True,Intel,Data Science,Data science intern,In-person,https://simplify.jobs/p/8895d9b9-0e65-4f80-9fd3-8b4647de8471/Data-science-intern,Hillsboro,OR,USA
+20,"Need to Apply,Applied",True,Cohere Health,SWE,Software Engineer Security Co-Op,Remote,https://simplify.jobs/p/2fef116b-faac-487f-84d4-ac5c826275aa/Software-Engineer-Security-Co-Op,,,USA
+21,"Need to Apply,Closed",True,Unite Us,SWE,Software Engineering Intern,Remote,https://simplify.jobs/p/7cac8ee0-d387-43f6-890c-9561678a5e86/Software-Engineering-Intern,,,USA
+22,"Need to Apply,Closed",True,Lightmatter,UI/UX Design,Intern – User Interface,In-person,https://simplify.jobs/p/4809253e-8b69-45fb-bb98-5e6c5b357d3c/Intern--User-Interface,Cambridge,MA,USA
+23,"Need to Apply,Closed",True,Paypal,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/fc7c90d5-3ae4-4cff-91d7-e341f36dd7d7/Software-Engineer-Intern,Vancouver,BC,CAN
+24,"Need to Apply,Applied",True,Niantic,SWE,2024 Software Engineering Intern,In-person,https://simplify.jobs/p/feaca16e-158a-45ce-9a50-78451a2aa052/2024-Software-Engineering-Intern,London,UK,UK
+25,"Need to Apply,Applied",True,Palantir,SWE,Software Engineer – Internship,In-person,https://simplify.jobs/p/930b6c2c-a5c0-4871-a545-bf43ae8c31a9/Software-Engineer--Internship,London,UK,UK
+26,"Need to Apply,Applied,Rejected",True,Planet,SWE,Intern – Flight Software Engineering,In-person,https://simplify.jobs/p/5a8a2e4b-87b4-4261-b9a2-7d5771c82233/Intern--Flight-Software-Engineering,San Francisco,CA,USA
+27,"Need to Apply,Applied",True,Palantir,Artificial Intelligence,Machine Learning Researcher – Internship,In-person,https://simplify.jobs/p/1591c777-4f99-4ae2-aac3-1168ab45d247/Machine-Learning-Researcher--Internship,Seattle,WA,USA
+28,,False,,,,,,,,
+29,"Need to Apply,Closed",True,Autodesk,SWE,Intern – Software Engineer,Remote,https://simplify.jobs/p/11684007-7787-4edd-981e-e8867f8790a5/Intern--Software-Engineer,,,USA
+30,"Need to Apply,Applied,Rejected",True,Autodesk,UI/UX Design,User Experience Design Intern,Remote,https://simplify.jobs/p/4111b73e-6de1-4470-bcf8-82a0161662c3/User-Experience-Design-Intern,,AZ,USA
+31,"Need to Apply,Applied,Rejected",False,Etsy,SWE,"Software Engineer Intern, Summer 2024",In-person,https://careers.etsy.com/jobs/software-engineer-intern-summer-2024-brooklyn-ny-united-states,Brookyln,NY,USA
+32,"Need to Apply,Applied",False,Adobe,SWE,2024 Intern - Software Development Engineer (R141264),In-person,https://careers.adobe.com/us/en/job/ADOBUSR141264EXTERNALENUS/2024-Intern-Software-Development-Engineer?utm_source=markbenliyan,San Jose,CA,USA
+33,Applied,False,Viasat,SWE,Software Engineer Intern,In-person,https://careers.viasat.com/jobs/2796,Carlsbad,CA,USA
+34,,False,,,,,,,,
+35,"Applied,Rejected",False,Grammarly,SWE,Software Engineering Intern,Hybrid,https://www.grammarly.com/jobs/engineering/software-engineering-intern?gh_jid=5666586,Berlin,BE,Germany
+36,Applied,False,Seismic,SWE,Software Engineer Intern – Summer 2024,In-person,https://seismic.com/careers/job-detail/?gh_jid=5063609004,Indianapolis,IN,USA
+37,Applied,True,Palantir,UI/UX Design,Product Designer – Internship,In-person,https://simplify.jobs/p/d410ec85-b106-465c-926a-e6a398d9c876/Product-Designer--Internship,New York City,NY,USA
+38,Applied,False,Interac,SWE,UX Research Intern,In-person,https://interac.wd3.myworkdayjobs.com/en-US/Interac/job/Toronto/Design-Research-Intern_REQ-1110?source=Linkedin,Toronto,ON,CAN
+39,Applied,False,Interac,SWE,Product Management Intern,In-person,https://interac.wd3.myworkdayjobs.com/en-US/Interac/job/Toronto/Product-Management-Intern_REQ-1113?source=Linkedin,Toronto,ON,CAN
+40,Applied,False,Interac,SWE,Front-End Developer Intern,In-person,https://interac.wd3.myworkdayjobs.com/en-US/Interac/job/Toronto/Front-End-Developer-Intern_REQ-1111?source=Linkedin,Toronto,ON,CAN
+41,Coffee Chat,False,S&P Global,"Frontend,SWE",Frontend Software Developer Intern - Portfolio Analytics team,In-person,https://careers.spglobal.com/jobs/296384?lang=en-us,Princeton,NJ,USA
+42,Coffee Chat,False,S&P Global,SWE,Market Data Software Development Intern,In-person,https://careers.spglobal.com/jobs/297220?lang=en-us,Princeton,NJ,USA
+43,Coffee Chat,False,S&P Global,SWE,Software Development Intern - Technology Services Team,In-person,https://careers.spglobal.com/jobs/296405?lang=en-us,Charlottesville,VA,USA
+44,Coffee Chat,False,S&P Global,SWE,XPressfeed Software Development Intern,In-person,https://careers.spglobal.com/jobs/297738?lang=en-us,Boulder,CO,USA
+45,Coffee Chat,False,S&P Global,SWE,RatingsDirect Software Development Intern,In-person,https://careers.spglobal.com/jobs/296333?lang=en-us,"New York
+Princeton","NY,NJ",USA
+46,Coffee Chat,False,S&P Global,SWE,Commercial & Marketing Technology Software Engineering Intern,In-person,https://careers.spglobal.com/jobs/294331?lang=en-us,"Charlottesville
+Richmond",VA,USA
+47,Applied,False,Five9,SWE,Engineering Intern,In-person,https://simplify.jobs/p/3b3687bd-e134-42d0-8f25-24bf030521ec/Engineering-Intern,San Ramon,CA,USA
+48,Applied,True,Truveta,SWE,Undergraduate Engineering Internship,In-person,https://simplify.jobs/p/f5ec4e90-c8d6-485e-aa69-6c03cb5fb2a7/Undergraduate-Engineering-Internship,Seattle,WA,USA
+49,Rejected,False,Arrowhead Pharmaceuticals,Web Dev,Web Designer Summer Intern,In-person,https://arrowheadpharma.com/job-posting/summer-intern-web-designer/?gh_jid=4277658007,Pasadena,CA,USA
+50,Applied,False,Vantage,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/17389062-3f37-4a86-bdda-59aaeec76ef5/Software-Engineering-Intern,New York,NY,USA
+51,Applied,True,Relativity,UI/UX Design,User Experience – Intern,Remote,https://simplify.jobs/p/f3c788b2-9a53-4ca3-836c-cc40b180de0c/User-Experience--Intern,,,USA
+52,"Applied,Rejected",True,Leidos,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/4118a342-d5ac-4ec2-9d5c-2db06df6b4d1/Software-Engineer-Intern,Beavercreek,OH,USA
+53,Applied,True,Fetch,"SWE,Mobile",IOS Software Engineering Internship,In-person,https://simplify.jobs/p/9861c36a-64ac-4a74-bcba-08744651f01b/IOS-Software-Engineering-Internship,Madison,WI,USA
+54,Applied,False,Lite Point,SWE,Software Engineering Intern - Summer 2024,In-person,https://jobs.teradyne.com/LitePoint/job/San-Jose-Software-Engineering-Intern-Summer-2024-CA-95101/1132223800/?utm_source=LINKEDIN&utm_medium=referrer,San Jose,CA,USA
+55,Applied,False,Seismic,SWE,Software Engineer Intern – Summer 2024,In-person,https://seismic.com/careers/job-detail/?gh_jid=5063590004&gh_src=20d988194us,San Diego,CA,USA
+56,Applied,False,Leap Event Tech,SWE,"Software Engineer Intern
+",In-person,https://leapeventtech.recruitee.com/o/technology-solutions-intern-2/c/new?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Montreal,QC,CAN
+57,Applied,False,Empower Associates,Artificial Intelligence,Machine Learning Engineer,In-person,https://www.ziprecruiter.com/jobs/empower-associates-4de8f42f/machine-learning-engineer-6fd8e32e?zrclid=fd1dca98-6154-40d2-9081-52a1f4c83143&lvk=IiQCljFXI2GYLcDiFq75lg.--NHMWSKK1J,Saint Paul,MN,USA
+58,Applied,False,Merrick Community Services,Data,Data Intern,In-person,https://www.ziprecruiter.com/jobs/merrick-community-services-c66ae401/data-intern-6459b19c?zrclid=cf680e6c-f5ce-43bf-8010-3b0634f749df&lvk=-VH4UD0ZJlzG-ssjxL7IXw.--NHHka63dc,Saint Paul,MN,USA
+59,Applied,False,BrandSafway ,"SWE,Data",Software Engineer/Data Analytics Intern,In-person,https://brandsafway.applicantstack.com/x/detail/a21d4p8ilcf3?pge=2&utm_source=ziprecruiter,Bolton,ON,CAN
+60,"Applied,Rejected",False,Guidewire,SWE,Software Engineer Intern/Full Stack Co-op - Summer,Hybrid,https://jobs.lever.co/guidewire/9f36d9a2-d98f-4362-b80e-4488de355c05?lever-origin=applied&lever-source%5B%5D=Talent.com,Mississauga,ON,CAN
+61,Rejected,False,Mozilla,"Mobile,SWE",Mobile Engineering Intern,Remote,https://boards.greenhouse.io/mozilla/jobs/5417643?gh_src=6eba76201us&source=LinkedIn,,,CAN
+62,Rejected,False,Intel,SWE,Compiler Engineering PEY Intern,Hybrid,https://jobs.intel.com/en/job/toronto/compiler-engineering-pey-intern/41147/60129808208?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Toronto,ON,CAN
+63,Applied,False,Lincoln Electric Company of Canada,SWE,Software Development Intern,In-person,https://smartapply.indeed.com/beta/indeedapply/form/contact-info,Hamilton,ON,CAN
+64,Applied,False,Aversan,SWE,CO-OP/Internships - ,In-person,https://jobs.aversan.com/careers/53979-General/jobs/7662569-CO-OPInternships?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Mississauga,ON,CAN
+65,Applied,False,Kinaxis,"SWE,Artificial Intelligence","Co-Op/Intern Software Engineer, AI Platform",Remote,https://boards.greenhouse.io/kinaxis/jobs/7106603002?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,,,CAN
+66,Applied,False,BRP,SWE,"Internships Summer 2024, Software Engineering and Computer Engineering",In-person,https://careers.brp.com/global/en/job/28936/Internships-Summer-2024-Software-Engineering-and-Computer-Engineering?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Valcourt,QC,CAN
+67,Applied,False,AeroVect,SWE,Software Engineer Intern (Infrastructure),In-person,https://jobs.ashbyhq.com/AeroVect/aeee2db8-39e7-4305-9eb7-149dcd7bd43f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Toronto,ON,CAN
+68,Applied,True,Pinterest,SWE,Software Engineering Intern 2024 (Toronto),In-person,https://www.pinterestcareers.com/en/jobs/5666542/software-engineering-intern-2024-toronto/?gh_src=fd98cc291us&gh_jid=5666542,Toronto,ON,CAN
+69,Applied,False,Novari Health,,Summer Internship - Queens Engineering & Technology Fair,In-person,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ebc4f6ec-4c85-42d2-b492-61fb8f3cceb5&jobId=494954,Kingston,ON,CAN
+70,Applied,False,Interac,SWE,Software Developer Intern,In-person,https://interac.wd3.myworkdayjobs.com/Interac/job/Toronto/Software-Developer-Intern_REQ-1120?source=Linkedin,Toronto,ON,CAN
+71,Applied,False,GPTZero,SWE,Software Engineering Intern,Hybrid,https://jobs.ashbyhq.com/GPTZero/e1f12af2-d017-4fca-a9af-99431d989d53/application?utm_source=XoW9k5bL7O,New York City,NY,USA
+72,Applied,True,Dialogue Health Technologies Inc,SWE,Software Engineering Intern,In-person,https://boards.greenhouse.io/dialoguehealthtechnologiesinc/jobs/5121523004?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Montreal,QC,CAN
+73,Applied,True,GE HealthCare,Artificial Intelligence,Machine Learning Engineer Intern,In-person,https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4001389EXTERNALENGLOBAL/Machine-Learning-Engineer-Intern?utm_source=linkedin&utm_medium=phenom-feeds,Anchorage,AK,USA
+74,Applied,False,Oracle,SWE,"Software Engineer Intern - Database Technologies
+",In-person,https://dejobs.org/juneau-ak/software-engineer-intern-database-technologies/5A97244F705545EAA0C4CEC6B9A74394/job/?utm_campaign=JSeekr&utm_medium=Job+Aggregator&utm_source=JSeekr-DE&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic,Juneau,AK,USA
+75,Applied,False,Health Edge,Data Science,Data Science Intern,Remote,https://careers-healthedge.icims.com/jobs/4077/data-science-intern/job,,,USA
+76,Applied,False,Health Edge,SWE,"
+Software Engineer Intern",Remote,https://careers-healthedge.icims.com/jobs/4066/software-engineer-intern/job,,,USA
+77,Applied,False,Health Edge,SWE,"
+Software Engineer Intern",Remote,https://careers-healthedge.icims.com/jobs/4079/software-engineer-intern/job,,,USA
+78,Applied,False,Scholastic,SWE,"Software Engineering Intern (Scholastic Technology Services), Summer 2024",Remote,https://app.ripplematch.com/v2/student/applications/applied,New York City,NY,USA
+79,Applied,False,Scholastic,SWE,"Software Engineering Intern (Education Solutions), Summer 2024",Remote,https://app.ripplematch.com/v2/student/applications/applied,New York City,NY,USA
+80,Applied,False,Boston Red Sox,Data,Summer Analytics Intern,In-person,https://app.ripplematch.com/v2/student/applications/applied,Boston,MA,USA
+81,Applied,False,Samsara,"Data,SWE",Data Engineering Intern,Hybrid,https://app.ripplematch.com/v2/public/application/apply/f0c3ac5290c74d2ca29eb2da31d920f8?appPublicId=f0c3ac5290c74d2ca29eb2da31d920f8,San Francisco,CA,USA
+82,Applied,True,CVS,SWE,IT Health Care Benefits (Software Engineer) Intern - Undergrad - Summer 2024,In-person,https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/IT-Health-Care-Benefits--Software-Engineer--Intern---Undergrad---Summer-2024_R0109665,Hartford,CT,USA
+83,Applied,False,Visa,SWE,"Software Engineer, Intern - Summer 2024",In-person,https://jobs.smartrecruiters.com/Visa/743999971192223-software-engineer-intern-summer-2024,Bellevue,WA,USA
+84,Applied,False,Codeium,SWE,Software Engineer - Intern,In-person,https://jobs.ashbyhq.com/codeium/5354382a-66cb-421d-b554-7e80221ccd3b,Mountain View,CA,USA
+85,Applied,False,Plaid,SWE,Software Engineering Intern,In-person,https://jobs.lever.co/plaid/166b394b-5bf0-48f7-a599-f15030d40162?lever-origin=applied&lever-source%5B%5D=ColorStack,San Francisco,CA,USA
+86,Applied,True,Resmed,"Fullstack,SWE",Intern - Full Stack Software Engineer,In-person,https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Bloomington-MN/Intern---Full-Stack-Software-Engineer_JR_031363?source=LinkedIn,Bloomington,MN,USA
+87,"Applied,Rejected",True,Resmed,SWE,Intern - Software Engineer (C# & .Net),In-person,https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/US-Brightree-Remote-Workforce/Intern---Software-Engineer--C----Net-_JR_031351?source=LinkedIn,Bloomington,MN,USA
+88,Applied,False,Verint,SWE,"Intern, Software Engineer",Remote,https://fa-epcb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2354?utm_medium=jobshare,,,USA
+89,Applied,False,Oracle,SWE,Software Engineer Intern - Customer Success Services,In-person,https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/227683?utm_medium=jobboard&utm_source=LinkedIn,,,USA
+90,Applied,False,Resmed,"Fullstack,SWE",Intern - Full Stack Software Engineer,In-person,https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Bloomington-MN/Intern---Full-Stack-Software-Engineer_JR_031364?source=LinkedIn,"Bloomington
+Peachtree Corners","MN,GA",USA
+91,Applied,False,Tactile Medical,SWE,Software Engineer Intern (Summer 2024),In-person,https://careers.tactilemedical.com/jobs/4345?mode=apply&iis=Linkedin&lang=en-us,Minneapolis,MN,USA
+92,"Applied,Interview 1 -> Scheduled,Interview 1 -> Complete",False,Benco Dental,SWE,Application Development Intern (Summer 2024),Remote,https://benco.clearcompany.com/careers/jobs/088925b5-6ad7-53ae-317d-f7f606b5013c/apply?source=2974528-JB-1018,,,USA
+93,Applied,False,Headstarter,SWE,Software Engineering Intern - Voice AI at Headstarter,,https://app.dover.io/apply/headstarter/9ec34cd5-3cec-482d-be7e-7c269c3c95dd?rs=42706078,New York City,NY,USA
+94,Applied,False,Spotify,Research,2024 Summer InternshipTech Research Scientist (New York),,https://www.lifeatspotify.com/jobs/2024-summer-internship-tech-research-scientist-new-york,New York City,NY,USA
+95,Applied,False,Spotify,SWE,2024 Summer InternshipEngineering (New York City),,https://www.lifeatspotify.com/jobs/2024-summer-internship-engineering-new-york-city,New York City,NY,USA
+96,Applied,False,Spotify,UI/UX Design,2024 Summer InternshipUser Research & Design (Stockholm),,https://www.lifeatspotify.com/jobs/2024-summer-internship-user-research-design-stockholm,Stockholm,SE,SWEDEN
+97,Applied,False,Spotify,UI/UX Design,2024 Summer InternshipUser Research (New York City),,https://www.lifeatspotify.com/jobs/2024-summer-internship-user-research-new-york-city,New York City,NY,USA
+98,"Applied,Rejected",False,Spotify,SWE,2024 Summer InternshipEngineering (Stockholm),In-person,https://www.lifeatspotify.com/jobs/2024-summer-internship-engineering-stockholm,Stockholm,SE,SWEDEN
+99,Rejected,False,Spotify,Product Manager,2024 Summer InternshipProduct Management (New York City),In-person,https://www.lifeatspotify.com/jobs/2024-summer-internship-product-management-new-york-city,New York City,NY,USA
+100,Applied,False,Playstation,Product Manager,Product Management Intern,In-person,https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5086304004,San Fransisco,CA,USA
+101,Applied,False,Live Nation Entertainment,Product Manager,Product Management Intern,In-person,https://livenation.wd1.myworkdayjobs.com/LNExternalSite/job/New-York-NY-USA/Product-Management-Intern_JR-66518-1,New York ,NY,USA
+102,Applied,False,Cloudflare,Product Manager,Product Manager Intern (Summer 2024),In-person,https://boards.greenhouse.io/cloudflare/jobs/5446051,Austin,TX,USA
+103,Applied,False,CVS Health,SWE,IT Health Care Benefits (Software Engineer) Internship - Undergrad - Summer 2024,In-person,https://jobs.cvshealth.com/job/19607104/it-health-care-benefits-software-engineer-internship-undergrad-summer-2024-blue-bell-pa/,Blue Bell,PA,USA
+104,Applied,True,Caldera,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/f21a4379-7670-4d6c-bc57-6cb7cd471d28/Software-Engineering-Intern,San Fransisco,CA,USA
+105,Closed,False,Xylem,SWE,Software Engineering Intern,,https://simplify.jobs/p/f1fb91ee-13e3-4f9d-8480-2e0142f770b7/Software-Engineering-Intern,Morrisville,NC,USA
+106,Applied,True,Roku,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/478bccb0-7330-4556-9b62-beac65f56b97/Software-Engineer-Intern,Cambridge,UK,UK
+107,Applied,True,Roku,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/d04fdd7b-7df1-4e0b-9fe0-6db763536033/Software-Engineer-Intern,San Jose,CA,USA
+108,Applied,True,Chime,SWE,Software Engineer Intern - Experimentation,In-person,https://simplify.jobs/p/3ea333c9-fbd3-431d-a7f1-6f4ca218eedf/Software-Engineer-Intern,San Francisco,CA,USA
+109,Applied,True,Chime,SWE,Software Engineer Intern - App Journey,In-person,https://simplify.jobs/p/7a05d454-348d-421a-bc80-e03bf3ce738b/Software-Engineer-Intern,San Francisco,CA,USA
+110,Applied,True,Chime,SWE,Software Engineer Intern - Funding Habits,In-person,https://simplify.jobs/p/8577a290-9d3a-4549-807f-6d4a4621b8f4/Software-Engineer-Intern,San Francisco,CA,USA
+111,Applied,True,Bose,SWE,Embedded Software Engineering Intern / Co-op,In-person,https://simplify.jobs/p/3af3c2fb-47bb-4fe2-8df3-db62d0ef1483/Embedded-Software-Engineering-Intern--Co-op,Framingham,MA,USA
+112,Applied,True,Addepar,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/bbac8202-2617-481b-99cd-fcb3674222c0/Software-Engineer-Intern,Edinburgh,UK,UK
+113,Closed,False,Spot Freight,SWE,Software Developer Internship,,https://simplify.jobs/p/0ee6990f-ad85-473a-976a-9aeffc0413bb/Software-Developer-Internship,,,
+114,Closed,False,First American,SWE,Software Engineer Internship,,https://simplify.jobs/p/f23f0466-8b0d-42cd-9f48-4c9e2dcc0110/Software-Engineer-Internship,,,
+115,Closed,False,BMO,Data,Data Analyst – Co-op/Internship,,https://simplify.jobs/p/11463442-989c-44cc-b943-960fd395763e/Data-Analyst--Co-opInternship,,,
+116,Closed,False,Lacework,SWE,Software Engineer Intern,,https://simplify.jobs/p/d8d10607-246f-4188-b836-2e619adde0f5/Software-Engineer-Intern,,,
+117,Applied,True,Databricks,SWE,IT Software Engineering Intern,In-person,https://simplify.jobs/p/eb401165-358b-48ad-ab3b-001508f57677/IT-Software-Engineering-Intern,Mountain View,CA,USA
+118,Applied,True,Ample,"Fullstack,SWE",Full Stack Software Engineer INTERN,In-person,https://simplify.jobs/p/a14c5352-a5da-4b5b-9a4f-93e8c1d3858c/Full-Stack-Software-Engineer-INTERN,San Francisco,CA,USA
+119,Applied,True,Cadence Design Systems,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/2f3b5e92-278f-41cc-b00f-1a0e7d53580e/Software-Engineering-Intern,San Jose,CA,USA
+120,Applied,True,Rivian,SWE,Software Engineering – Summer 2024 Internships,In-person,https://simplify.jobs/p/f78950a0-501f-4562-a5cd-88055fa1f1ae/Software-Engineering--Summer-2024-Internships,Palo Alto,CA,USA
+121,Applied,True,Roku,SWE,Software Engineer Intern,In-person,https://www.weareroku.com/jobs/software-engineer-intern-austin-texas-united-states?gh_jid=5724567&utm_source=Simplify&gh_src=Simplify,Austin ,TX,USA
+122,Applied,True,Watershed,SWE,Software engineer – Intern,In-person,https://simplify.jobs/p/fd1e2da3-d3e1-4d0c-8943-9733852ab923/Software-engineer--Intern,San Francisco,CA,USA
+123,Applied,True,C3.ai,SWE,Software Engineer – Intern,In-person,https://simplify.jobs/p/b688b7bf-2bf6-49e6-9deb-c8b5d5c0740d/Software-Engineer--Intern,San Carlos,CA,USA
+124,Rejected,True,Uniswap,UI/UX Design,Product Design Intern,In-person,https://simplify.jobs/p/5e9ad6fb-a2c5-4e62-9836-3c67a1bd3a22/Product-Design-Intern,New York City,NY,USA
+125,Applied,True,Intelliware,SWE,Software Developer Internship,In-person,https://jobs.lever.co/intelliware/24345432-7189-4849-a389-3bad4abde843,Vancouver,BC,CAN
+126,Applied,True,Demonware,"Frontend,SWE",Front-End Developer Internship,In-person,https://careers.demonware.net/job/R022562/Front-End-Developer-Internship,Vancouver,BC,CAN
+127,Applied,True,Demonware,SWE,Software Development Internship- Summer 2024,In-person,https://careers.demonware.net/job/R022569/Software-Development-Internship-Summer-2024,Vancouver,BC,CAN
+128,,True,Coveo,SWE,Software Developer Intern (Professional Services Team) - Summer 2024,,https://www.coveo.com/en/company/careers/open-positions/customer-operations/professional-services/software-developer-intern-professional-services-team-summer-2024/7089128002,Montreol,QC,CAN
+129,,True,Coveo,SWE,Software Development Intern (Solutions Engineering) - Summer 2024,,https://www.coveo.com/en/company/careers/open-positions/sales/sales-engineering/software-development-intern-solutions-engineering-summer-2024/7074446002,Montreol,QC,CAN
+130,Rejected,True,moloco,SWE,Software Engineer Intern,Remote,https://boards.greenhouse.io/moloco/jobs/5870606003,,,USA
+131,Applied,True,MyFitnessPal,SWE,"Software Engineer Intern, Android- Summer 2024",Remote,https://boards.greenhouse.io/myfitnesspal/jobs/5606624,,,USA
+132,Applied,True,Anduril Industries,SWE,Software Engineer Intern,In-person,https://www.untapped.io/app/discover/jobs/anduril-industries/software-engineer-intern/a1aff8f2-69aa-4fca-8d88-8a84a2da0d05,Costa Mesas,CA,USA
+133,Applied,True,Plaid,SWE,Software Engineer Intern ,In-person,https://www.untapped.io/app/discover/jobs/plaid/software-engineer-intern/e4cd29a7-c3df-4c51-821c-688241921f25,San Francisco,CA,USA
+134,"Applied,Rejected",True,Cars Commerce,Mobile,iOS Mobile Engineering Intern,In-person,https://boards.greenhouse.io/carsdotcom/jobs/5675097?utm_source=Simplify&gh_src=Simplify,Chicago,IL,USA
+135,Rejected,True,Western Digital,SWE,Summer 2024 – Software Engineering Intern,In-person,https://jobs.smartrecruiters.com/WesternDigital/743999967197963?utm_source=Simplify&ref=Simplify&src=Simplify,Irvine,CA,USA
+136,Applied,True,Affinitiv,SWE,Software Engineer Intern,Remote,https://boards.greenhouse.io/affinitiv/jobs/5877552003?utm_source=Simplify&gh_src=Simplify,,,USA
+137,Applied,True,Astranis,SWE,Software Developer – Intern,In-person,https://boards.greenhouse.io/astranis/jobs/4333447006?utm_source=Simplify&gh_src=Simplify,San Francisco,CA,USA
+138,Applied,True,Leidos,SWE,Software Engineer Intern,In-person,https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Software-Engineer-Intern_R-00128956?utm_source=Simplify&ref=Simplify&src=Simplify,Huntsville,AL,USA
+139,Applied,True,Boston Dynamics AI Institute,SWE,Software Engineer Intern/Coop,In-person,https://jobs.lever.co/bostondynamicsaiinstitute/402e9541-fea9-46c6-973c-549b9d4e9324/apply?lever-source=Simplify,Cambridge,MA,USA
+140,Applied,True,Archer,SWE,Software Engineering Internship,In-person,https://boards.greenhouse.io/archer56/jobs/5865344003?utm_source=Simplify&gh_src=Simplify,San Francisco,CA,USA
+141,Rejected,True,Activision Blizzard,,2024 US Summer Internship,In-person,https://activision.wd1.myworkdayjobs.com/External/job/Woodland-Hills/Technical-Lighting-Artist_R022352?utm_source=Simplify&ref=Simplify&src=Simplify,Canoga Park,CA,USA
+142,Applied,False,Lyft,SWE,Software Engineering Intern,In-person,https://app.careerpuck.com/job-board/lyft/job/6962884002?gh_jid=6962884002&utm_source=Simplify&gh_src=Simplify,Montreal,QC,CAN
+143,Applied,True,Bose,Mobile,IOS or Android Mobile Application Engineer Co-op,In-person,https://boseallaboutme.wd1.myworkdayjobs.com/en-US/Bose_Careers/job/US-MA---Framingham/iOS-or-Android-Mobile-Application-Engineer-Co-op_R26415?utm_source=Simplify&ref=Simplify&src=Simplify,Framingham,MA,USA
+144,Applied,True,CACI,Web Dev,Web Application Development Intern,In-person,https://caci.wd1.myworkdayjobs.com/External/job/Remote-Any-State/Web-Application-Development-Intern---Summer-2024_292616-1?utm_source=Simplify&ref=Simplify&src=Simplify,Crane,IL,USA
+145,Applied,False,Osmo,SWE,Software Engineering Intern,In-person,https://boards.greenhouse.io/osmo/jobs/4334108006?utm_source=Simplify&gh_src=Simplify,Somerville,MA,USA
+146,Applied,True,Acadian Asset Management,SWE,Software Engineering Co-Op,In-person,https://www.acadian-asset.com/careers/open-positions?gh_jid=4334491006&utm_source=Simplify&gh_src=Simplify,Cambridge,MA,USA
+147,Applied,True,CACI,SWE,Software Engineer Intern – Summer 2024,In-person,https://caci.wd1.myworkdayjobs.com/External/job/US-IN-Crane/Software-Engineer-Intern---Summer-2024_292742-1?utm_source=Simplify&ref=Simplify&src=Simplify,Crane,IL,USA
+148,Applied,True,Intel,SWE,Software Engineer – Undergraduate Intern,In-person,https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineer---Undergraduate-Intern_JR0258343?utm_source=Simplify&ref=Simplify&src=Simplify,Santa Clara,CA,USA
+149,Applied,False,Wisk,SWE,Software Development Intern / Stagiaire en développement de logiciels,In-person,https://jobs.lever.co/wisk/65d5c693-9701-4d64-be58-dde85cb2cc03/apply?lever-source=Simplify,Montreol,QC,CAN
+150,Rejected,False,SoFi,SWE,"Intern, Software Engineer",In-person,https://www.sofi.com/careers/sofi-university/?gh_jid=5870784003&gh_src=Simplify&utm_source=Simplify,San Fransisco,CA,USA
+151,Applied,True,Global Relay,SWE,Software Development Engineer in Test (SDET) Co-op - Summer 2024,In-person,https://www.globalrelay.com/company/careers/jobs/?gh_jid=5086524004&utm_source=Simplify&gh_src=Simplify,Vancouver,BC,CAN
+152,Applied,False,Simplify,SWE,Product/Software Engineer Intern,Remote,https://simplify.jobs/p/0ea30c11-fd58-4835-b33f-0001ac7ae4bf/ProductSoftware-Engineer-Intern,,,USA
+153,Rejected,False,Resonetics,SWE,Development Engineering Intern,In-person,https://careers-resonetics.icims.com/jobs/1755/development-engineering-intern/job?mode=job&iis=Job+Board&iisn=ZipRecruiter&mobile=false&width=1270&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Hutchinson,MN,USA
+154,Applied,True,Encephalo Investments,SWE,Software Development Intern,In-person,https://jobs.smartrecruiters.com/EncephaloInvestments/743999734497349-software-development-intern?utm_source=ziprecruiter,Woodbury,MN,USA
+155,"Applied,Rejected",True,Dow Jones,SWE,"Summer 2024 Internship- Software Engineer, News Automation",In-person,https://dowjones.wd1.myworkdayjobs.com/dow_jones_career/job/Summer-2024-Internship--Software-Engineer--News-Automation_Job_Req_40686?utm_source=ziprecruiter,Minneapolis,MN,USA
+156,Applied,False,Pearson,SWE,Software Development Intern,In-person,https://pearson.jobs/bloomington-mn/software-development-intern/4B9CD5835A064EC092BC6F7FF0663FAA/job/?utm_source=ziprecruiter,Bloomington,MN,
+157,Applied,True,Braun Intertec,SWE,Application Developer Intern,In-person,https://braunintertec.wd5.myworkdayjobs.com/brauninterteccareers/job/Application-Developer-Intern_R3475?utm_source=ziprecruiter,Bloomington,MN,USA
+158,Applied,False,NILFISK,SWE,Software Engineering Intern,In-person,https://nilfisk.wd3.myworkdayjobs.com/nilfisk/job/Software-Engineering-Intern_R011583?utm_source=ziprecruiter,Brooklyn Park,MN,USA
+159,"Applied,Rejected",True,Dow Jones,SWE,Summer 2024 Internship - Software Engineer Intern: Follow and Newsletters,In-person,https://dowjones.wd1.myworkdayjobs.com/dow_jones_career/job/Summer-2024-Internship---Software-Engineer-Intern--Follow-and-Newsletters_Job_Req_40691?utm_source=ziprecruiter,Minneapolis,MN,USA
+160,Applied,False,TRANE,SWE,Software Engineering Intern,In-person,https://ttcareers.referrals.selectminds.com/jobs/software-engineering-intern-67955?utm_source=ziprecruiter,St. Paul,MN,USA
+161,Applied,True,IMRIS,SWE,Software Engineer Intern,Hybrid,https://imris.bamboohr.com/careers/139?source=ziprecruiter,Chaska,MN,USA
+162,Applied,True,IPG Photonics,SWE,"Intern, Engineering (Software)",In-person,https://recruiting.adp.com/srccar/public/RTI.home?r=5001017307600&c=2179707&d=ExternalCareerSite&rb=JobGet#/,Minneapolis,MN,USA
+163,Applied,True,Chamberlain Group,SWE,Intern – Software Engineer,In-person,https://simplify.jobs/p/6c2dc05b-f668-4e96-8ba5-875eab6a7cdc/Intern--Software-Engineer,Western Springs,IL,USA
+164,Rejected,False,Western Digital,SWE,Firmware Engineer Intern,In-person,https://simplify.jobs/p/8ec1a303-d113-4872-8d96-c254dbfd3017/Firmware-Engineer-Intern,Milpitas,CA,USA
+165,Applied,True,Harbinger Motors,SWE,Software Engineer – Intern,In-person,https://simplify.jobs/p/acb925f2-8c61-4aa9-b5f0-309308a210f8/Software-Engineer--Intern,Westminster,CA,USA
+166,Applied,True,Robotic Research,SWE,Software Engineering Intern,Remote,https://simplify.jobs/p/c03d61a1-6134-445c-b687-585589c9afdd/Software-Engineering-Intern,,,USA
+167,Applied,True,Bertram Capital Management,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/1368c45f-c82b-4d4c-abdc-f384043d66f6/Software-Engineering-Intern,Broomfield,CO,USA
+168,Applied,True,Dow Jones,SWE,Summer 2024 Internship,In-person,https://simplify.jobs/p/cf2daa5b-5aa4-4f3b-add6-eac41bb3d726/Summer-2024-Internship,Los Angeles,CA,USA
+169,"Applied,Rejected",True,CACI,SWE,Software Development/Engineering Intern,In-person,https://simplify.jobs/p/917a1ff0-1c74-4473-a7f8-b13899d7db44/Software-DevelopmentEngineering-Intern,Omaha,NE,USA
+170,Applied,True,Live Ramp,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/c900c057-f3bd-4ece-96b5-2d863e617d75/Software-Engineer-Intern,"Seattle
+San Francisco
+Little Rock
+New York","WA,NY,AR,CA",USA
+171,Rejected,False,Spot Freight,SWE,Software Developer Internship,In-person,https://simplify.jobs/p/6c85b267-9daf-4877-9b16-54f545796179/Software-Developer-Internship,Indianapolis,IN,USA
+172,Rejected,True,Ascend Analytics,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/c1d26f6a-2156-4e58-89b1-26ff48fbdce2/Software-Engineering-Intern,Boulder,CO,USA
+173,Rejected,False,Western Digital,SWE,Intern – Software Engineering,In-person,https://simplify.jobs/p/781a8766-ef00-45d4-b924-13e8a07c9680/Intern--Software-Engineering,San Jose,CA,USA
+174,Applied,False,Western Digital,SWE,Summer 2024 Software Engineering Intern,In-person,https://simplify.jobs/p/b6861dc4-c69a-4aa2-9ca9-2e1edfa37ff3/Summer-2024-Software-Engineering-Intern,San Jose,CA,USA
+175,Applied,True,Acorns,SWE,Software Engineer – Intern,Remote,https://simplify.jobs/p/994578e2-a5ec-4b5b-9a50-cbd0e787fe65/Software-Engineer--Intern,,,USA
+176,Applied,False,NVIDEA,SWE,Performance Engineer Intern,In-person,https://simplify.jobs/p/52f4799f-3cf3-4b82-a5f6-acb8b105f310/Performance-Engineer-Intern,St. Louis,MO,USA
+177,Applied,False,Tinder,Product Manager,Product Manager Intern ('24),Hybrid,https://jobs.lever.co/matchgroup/fcb2a66e-d921-4baa-b1dc-e6dcbe496a07,West Hollywood,CA,USA
+178,Applied,False,Notion,"SWE,Frontend","Software Engineer Intern, Front End (Summer 2024)",Remote,https://app.ripplematch.com/v2/public/job/440c9516/details?from_page=MarkBenliyan,San Francisco,CA,USA
+179,Applied,False,MongoDB,Product Manager,Technical Program Management Intern - Summer 2024,In-person,https://app.ripplematch.com/v2/student/recommendations/role/35086e1d,New York City,NY,USA
+180,Applied,False,NVIDEA,SWE,"Software Engineer Intern, Mapping and Localization - Summer 2024",In-person,https://app.ripplematch.com/v2/student/recommendations/role/75c7b162,Santa Clara,CA,USA
+181,Rejected,True,Ericsson,"QUIP,SWE",143007 - Software Developer Co-op (EIP) - Summer 2024,In-person,,Ottowa,ON,CAN
+182,Closed,False,CIBC,"QUIP,SWE",144614 - Application Developer Co-op - Personal Banking & Direct Financial Services Technology,,,,,
+183,Rejected,False,SOTI,"QUIP,SWE",144931 - Software Developer Intern - Front End (May 2024 12-16 Months) (R07518),In-person,https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Software-Developer-Intern----Front-End--May-2024-8-16-Months-_R07518,Markham,ON,CAN
+184,Applied,True,Ericsson,"QUIP,SWE",145120 - Software Developer Co-op (RDS) - Summer 2024,In-person,https://jobs.ericsson.com/careers?query=740040&pid=563121757429591&domain=ericsson.com&sort_by=relevance&triggerGoButton=true,Ottowa,ON,CAN
+185,Rejected,False,Moloco,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/9ed53ed0-6ab0-48b1-974a-4fffd5732a2a/Software-Engineer-Intern,"Seattle
+Redwood City","WA,CA",USA
+186,Applied,True,Kargo,SWE,Intern – Software Engineering,In-person,https://simplify.jobs/p/e7ba10fa-108a-487a-a1ac-838b5cc9fa57/Intern--Software-Engineering,New York ,NY,USA
+187,Applied,True,Box,SWE,Software Engineering Intern,Remote,https://simplify.jobs/p/98973421-6118-4f9b-a739-6dbc37bb0116/Software-Engineering-Intern,,,USA
+188,Applied,True,Hewlett Packard (HP),SWE,2024 Summer Print Software Engineer Intern,In-person,https://simplify.jobs/p/41696d79-de08-4e15-8fde-d64d97b98bec/2024-Summer-Print-Software-Engineer-Intern,Vancouver,WA,USA
+189,Closed,False,Alarm.com,SWE,Software Engineer Internship,,https://simplify.jobs/p/3cc4bceb-693c-45b5-9384-630da13389f7/Software-Engineer-Internship,,,
+190,Closed,False,TripAdvisor,SWE,Software Engineering Intern x5,,https://simplify.jobs/p/f1544c33-c025-4f4a-9beb-3f7ada8f981c/Software-Engineering-Intern-x5,,,
+191,Applied,False,Visa,SWE,Software Engineer – Intern,In-person,https://simplify.jobs/p/1aaa87b9-c8c3-4c6c-82c8-fc8d7f08d196/Software-Engineer--Intern,Bellevue,WA,USA
+192,Applied,True,Cohere,Product Manager,Engineering Program Manager Intern,In-person,https://simplify.jobs/p/3fbe24ba-cae8-4a51-b344-b76aca66dd7e/Engineering-Program-Manager-Intern,London,UK,USA
+193,Rejected,True,CACI,SWE,Software Development Intern,In-person,https://simplify.jobs/p/edd43fb2-5f40-4786-9499-a3ecbe9b86f5/Software-Development-Intern,Denver,CO,USA
+194,Closed,False,1Password,SWE,Developer Intern,,https://simplify.jobs/p/6fc1dbe0-249b-4df2-ad80-8dc385493af3/Developer-Intern,,,
+195,Closed,False,1Password,SWE,Developer Intern,,https://simplify.jobs/p/6796859a-7ab8-4805-a5d6-8bdd4a3ac6e1/Developer-Intern,,,
+196,Applied,True,Advisor360°,SWE,Systems Engineer – Summer Internship,In-person,https://simplify.jobs/p/7a76ac66-4e83-48b5-a75a-31098be7bc7b/Systems-Engineer--Summer-Internship,Waltham,MA,USA
+197,"Applied,Rejected",False,Plexus,SWE,Intern – Software Engineer,In-person,https://simplify.jobs/p/4c95a153-5698-4e3e-a0e7-3dc5ee1227db/Intern--Software-Engineer,Neenah,WI,USA
+198,Applied,True,Addepar,SWE,Software Engineer Intern,Remote,https://simplify.jobs/p/42b7b5db-c2d1-499e-8c98-8ab52952c928/Software-Engineer-Intern,,,USA
+199,Applied,False,Olo,SWE,Software Engineering Intern,Remote,https://simplify.jobs/p/a5836acd-fad0-49dc-89d0-b81e0cec9cdf/Software-Engineering-Intern,,,USA
+200,Rejected,False,Pendo,SWE,Summer 2024 Software Engineering Internship,In-person,https://simplify.jobs/p/6d4e8fd5-8c5b-4978-b805-da2bf57337bf/Summer-2024-Software-Engineering-Internship,Raleigh,NC,USA
+201,Applied,False,Thousand Eyes,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/6a9f820e-8b33-4ad5-bedf-1e27cefec91f/Software-Engineer-Intern,San Francisco,CA,USA
+202,Applied,False,Thousand Eyes,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/f81194a5-7346-4b21-9fed-11d446a85eed/Software-Engineer-Intern,Seattle,WA,USA
+203,Applied,True,Cadence,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/8a0b46da-c432-4c1c-bef9-4241497f88aa/Software-Engineering-Intern,San Jose,CA,USA
+204,Applied,False,Metron,SWE,Software Engineering Internship,In-person,https://www.metsci.com/careers/join-our-team/?gh_jid=4079146007,Reston,VA,USA
+205,Rejected,False,Yahoo,,"Yahoo Summer Intern (US) - Sports, Finance, Mail & More!",Remote,https://ouryahoo.wd5.myworkdayjobs.com/careers/job/United-States-of-America---Remote/Yahoo-Summer-Intern--US----Sports--Finance--Mail---More-_JR0023139,,,USA
+206,Rejected,False,Lyft,SWE,"Software Engineering Intern - Montreal, Canada (Summer 2024)",In-person,https://app.careerpuck.com/job-board/lyft/job/6962884002?gh_jid=6962884002&gh_src=01bdae0d2us,Montreol,QC,CAN
+207,Closed,False,Capital One,,Labs Incubator Intern,,https://simplify.jobs/p/ef19e4df-ab6e-4c6e-af27-0c3381b0d999/Labs-Incubator-Intern,,,
+208,Applied,False,My Fitness Pal,SWE,Software Engineer Intern,Remote,https://simplify.jobs/p/289b2515-b9a6-407a-a62c-8d27fadac128/Software-Engineer-Intern,,,USA
+209,Applied,False,VOYA,SWE,Software DEveloper Intern,Remote,https://simplify.jobs/p/fd1dd266-8f3d-49e1-a0b3-8648b70c9257/Summer-2024-Software-Developer-Intern,,,USA
+210,Closed,False,Snap,,2024 Software Engineer – Snap Up Apprentice,,https://simplify.jobs/p/8e1151ca-9fbe-42ec-b0dd-102517f60373/2024-Software-Engineer--Snap-Up-Apprentice,,,
+211,Applied,False,NVIDEA,SWE,NVIDEA SUmmer 2024 Intern SWE,In-person,https://simplify.jobs/p/ac4b5a57-cc23-4228-a401-63a157b452d4/NVIDIA-Summer-2024-Internships-Software-Engineering-Intern,Santa Clara,CA,USA
+212,Applied,False,Parallel Wireless,SWE,PHY Software Engineer Intern,In-person,https://simplify.jobs/p/23d86ba3-1d94-4baa-b3e8-3fb20320b609/PHY-Software-Engineer-Intern,Bristol,UK,UK
+213,Rejected,False,Workiva,SWE,2024 Summer – Software Development Intern,In-person,https://simplify.jobs/p/557dc6a3-8cde-44eb-b740-093266acdf46/2024-Summer--Software-Development-Intern,Sault Ste. Marie,ON,CAN
+214,Closed,False,Leidos,,SWE,,https://simplify.jobs/p/6613623f-2e02-46ed-8997-75a6c4d412b8/Software-Engineering-Intern,,,
+215,Rejected,False,Nutanix,SWE,SWE,In-person,https://simplify.jobs/p/c2d15467-864b-4ede-986b-01539f4ecacc/Software-Engineer-Intern,Cambridge,UK,UK
+216,Rejected,True,Cocacola,SWE,Software Developer Intenr,In-person,https://careers.coca-colacompany.com/job/19722840/software-developer-intern-austin-tx/,,,USA
+217,Applied,True,Intuit,"Frontend,SWE",Front-End Software Engineer Intern,In-person,https://jobs.intuit.com/job/-/-/27595/60092990192?cid=pjob_li_click_us_swe-fe-fy24_cn_text_job_intuit-talent&iis=pjob&iisn=li&p_sid=qmTTMDb&p_uid=QDTUVCgBkM&ss=paid&utm_campaign=&utm_content=pj_board&utm_medium=jobad,Atlanta,GA,USA
+218,Applied,True,Intuit,SWE,Software Engineer Intern,In-person,https://jobs.intuit.com/job/-/-/27595/60136622192?cid=pjob_li_click_us_swe-other-fy24_cn_text_job_intuit-talent&iis=pjob&iisn=li&p_sid=7a3iV5b&p_uid=8XGyjPTdyc&ss=paid&utm_campaign=&utm_content=pj_board&utm_medium=jobad,Atlanta,GA,USA
+219,Rejected,True,Formlabs,UI/UX Design,Web Design / UIUX Design Intern,In-person,https://simplify.jobs/p/2a59ab97-f222-46a3-9993-fbb145d0562b/Web-Design--UIUX-Design-Intern,Cambridge,MA,USA
+220,Rejected,True,Formlabs,"SWE,Fullstack",Full Stack Software Intern,In-person,https://simplify.jobs/p/8ea42646-e5f9-40e6-a9d6-a39c517b4242/Full-Stack-Software-Intern,Cambirdge,MA,USA
+221,Applied,True,Anduril,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/5299320b-85ae-4cce-b2c1-84539295a5a1/Software-Engineer-Intern,Atlanta,GA,USA
+222,Rejected,True,Kumo,SWE,Software Engineering Summer Internship 2024,In-person,https://simplify.jobs/p/9ac6142e-fd92-47d7-943f-adae2e5c35c5/Software-Engineering--Summer-Internship-2024,Mountain View,CA,USA
+223,Rejected,True,Astera Labs,SWE,Software Engineer Internship,In-person,https://simplify.jobs/p/585b8b95-4fe8-47f3-a658-e292d414913b/Software-Engineer--Internship,Toronto,ON,CAN
+224,"Applied,Rejected",True,Grammarly,SWE,Software Engineer Intern-HP Wolf Security,In-person,https://simplify.jobs/p/a9047824-4837-49ba-b43a-0ed191e26cfb/Software-Engineer-Intern-HP-Wolf-Security,Cambridge,UK,UK
+225,Rejected,True,Hewlett Packard (HP),Artificial Intelligence,D&TO Software AI Intern Summer 2024,In-person,https://simplify.jobs/p/d1ffe6dc-1c56-4f68-babd-1a217689815d/DTO-Software-AI-Intern-Summer-2024,Corvallis,OR,USA
+226,Applied,False,Modernizing Medicine,SWE,Web Software Engineering Intern,In-person,https://simplify.jobs/p/de3c2fac-724b-4713-aba0-02a5a8d100f7/Web-Software-Engineering-Intern,Baco Raton,FL,USA
+227,Applied,False,Modernizing Medicine,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/44c59f52-8a4c-4f72-8a37-1ff6a96e891f/Software-Engineering-Intern,Baco Raton,FL,USA
+228,Applied,False,Modernizing Medicine,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/98997d4e-2b06-49b3-9850-0d4c79368eb4/Software-Engineering-Intern,Baco Raton,FL,USA
+229,Rejected,False,Machina Labs,SWE,Software Engineer In,In-person,https://simplify.jobs/p/0bdd75f6-a9ec-4d03-a6fe-77338b005958/Software-Engineering-Internship,Los Angeles,CA,USA
+230,Applied,True,AppLovin,"Mobile,SWE",Mobile Software Engineering Intern,In-person,https://simplify.jobs/p/4e899b59-b13c-4b58-ab10-268c96c4bb9c/Mobile-Software-Engineering-Intern,Palo ALto,CA,USA
+231,Closed,False,Intel,"SWE,Fullstack",Full Stack Software Intern,Remote,https://simplify.jobs/p/62a08b3c-4182-4e31-b802-c61d8460c639/Full-Stack-Software-Intern,,,USA
+232,Applied,True,Cadence Design Systems,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/b12f5176-6b2d-4e26-8c30-79c1b7243ff9/Software-Engineering-Intern,Northridge Los Angeles,CA,USA
+233,Rejected,True,Gen,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/61f7f196-9e02-4b18-bb6d-a4b11a149345/Software-Engineer-Intern,Mountain View,CA,USA
+234,Rejected,True,Gen,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/86989d79-30f5-4cb6-8529-6d8d2fe9e744/Software-Engineer-Intern,Mountain View,CA,USA
+235,Closed,False,Gen,SWE,Software Engineer – Summer Internship,In-person,https://simplify.jobs/p/9fde0579-ea2c-4f69-868c-73d6062f8027/Software-Engineer--Summer-Internship,Tempe,AZ,USA
+236,Applied,True,Gen,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/9973de6e-3980-48e2-80e4-bfc8936ed01f/Software-Engineer-Intern,Mountain View,CA,USA
+237,Rejected,False,Manulife,SWE,Software Engineering Internship – Summer 2024,In-person,https://manulife.wd3.myworkdayjobs.com/MFCJH_AdminJobs/job/Toronto-Ontario/Software-Engineering-Internship---Summer-2024_JR23120727,Toronto,ON,CAN
+238,Closed,False,OCLC,UI/UX Design,UX Accessibility Intern,,https://oclc.wd1.myworkdayjobs.com/en-US/OCLC_Careers/job/Dublin-OH--Hybrid/UX-Accessibility-Intern_R0003025,,,
+239,Closed,False,Leggett & PLattt,"SWE,Mobile",Internship- Software Engineer- iOS,,https://careers.leggett.com/job/Lenexa-Internship-Software-Engineer-iOS-KS/1077037600/,,,
+240,Rejected,False,THALES,SWE,2024 Software Engineering Summer Intern - IL,In-person,https://jobs-thalesdsi.icims.com/jobs/3432/2024-software-engineering-summer-intern---il/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1170&height=500&bga=true&needsRedirect=false&jan1offset=-360&jun1offset=-300,Clarksburg,MD,USA
+241,Closed,False,Career Beacon,SWE,"Software Development, Intern",,https://www.careerbeacon.com/en/job-1/523676/extreme-reach/software-development-intern/toronto-on,,,
+242,Closed,False,Autodesk,SWE,"Intern, Software Engineer",,https://autodesk.wd1.myworkdayjobs.com/en-US/uni/job/Toronto-ON-CAN/Intern--Software-Engineer_23WD72473-1,,,
+243,Closed,False,ADI Careers,SWE,"Intern, Software Engineering",,https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Canada-Vancouver/Intern--Software-Engineering_R237728,,,
+244,Applied,False,Wayfair,SWE,Software Engineering Intern - Summer 2024,In-person,https://www.wayfair.com/careers/job/software-engineering-intern---summer-2024/7032310002/,Austin,TX,USA
+245,Closed,False,Clarity Partners,Web Dev,Front-End Web Developer Internship,,https://recruiting.paylocity.com/recruiting/jobs/Details/2084229/Clarity-Partners-LLC/Front-End-Web-Developer-Internship,,,
+246,Closed,False,Itron,SWE,Intern - Software Engineer,,https://itron.referrals.selectminds.com/jobs/intern-software-engineer-6245,,,
+247,Closed,False,Third Pole,SWE,Core Technology Software Intern (Winter/Spring 2024),,https://www.pole3.com/company/careers/?gh_jid=4342347005,,,
+248,Closed,False,Third Pole,SWE,Embedded Software Engineering Intern (Spring 2024),,https://www.pole3.com/company/careers/?gh_jid=4340361005,,,
+249,Closed,False,Ribbit,SWE,Software Engineering Intern - Robotics,,https://flyribbit.applytojobs.ca/engineering/26524,,,
+250,Closed,False,Cockroach Labs,SWE,Software Engineering Summer Intern ,In-person,https://www.cockroachlabs.com/careers/jobs/?gh_jid=5366373&utm_source=Simplify&gh_src=Simplify,New York City,NY,USA
+251,Closed,False,Cockroach Labs,SWE,Software Engineering Summer Intern ,In-person,https://www.cockroachlabs.com/careers/jobs/?gh_jid=5488779&utm_source=Simplify&gh_src=Simplify,New York City,NY,USA
+252,Closed,False,Cockroach Labs,SWE,Software Engineering Summer Intern ,In-person,https://www.cockroachlabs.com/careers/jobs/?gh_jid=5488784&utm_source=Simplify&gh_src=Simplify,New York City,NY,USA
+253,Rejected,False,Visa,SWE,"Software Engineer, Intern - Summer 2024",In-person,https://jobs.smartrecruiters.com/Visa/743999943195494?utm_source=Simplify&ref=Simplify&src=Simplify,Ashburn,VA,USA
+254,,False,,,,,,,,
+255,Applied,False,Ripple,SWE,"Software Engineer Intern, ",In-person,https://ripple.com/careers/all-jobs/job/5454377/?gh_jid=5454377&utm_source=Simplify&gh_src=Simplify,Toronto,ON,CAN
+256,Rejected,False,Ripple,SWE,"Software Engineer Intern, Ripplenet",In-person,https://ripple.com/careers/all-jobs/job/5417532/?gh_jid=5417532&utm_source=Simplify&gh_src=Simplify,Toronto,ON,CAN
+257,Rejected,False,Playstation,SWE,Online Programming Intern,In-person,https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4977019004?utm_source=Simplify&gh_src=Simplify,San Diego,CA,USA
+258,Applied,False,Playstation,SWE,Presentation Programming Intern,In-person,https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4977021004?utm_source=Simplify&gh_src=Simplify,San Diego,CA,USA
+259,Rejected,False,Todaytix Group,Backend,US Backend Developer Intern,In-person,https://jobs.lever.co/todaytixgroup/90e1418f-b8bc-49e3-9806-802406d01308/apply?lever-source=Simplify,New York City,NY,USA
+260,Rejected,False,Todaytix Group,Mobile,US Mobile Developer Intern,In-person,https://jobs.lever.co/todaytixgroup/2b151016-7666-45dc-a338-1c8574fd4a6a/apply?lever-source=Simplify,New York City,NY,USA
+261,Applied,True,DriveWealth,SWE,Summer 2024 Intern,In-person,https://boards.greenhouse.io/drivewealth/jobs/5798934003?utm_source=Simplify&gh_src=Simplify,New York City,NY,USA
+262,Rejected,True,Gusto,SWE,Software Engineering Intern,In-person,https://boards.greenhouse.io/gusto/jobs/5478110?utm_source=Simplify&gh_src=Simplify,"San Francisco
+New York City","CA,NY",USA
+263,Rejected,False,TodayTix Group,Backend,UK Backend Developer Intern,In-person,https://jobs.lever.co/todaytixgroup/4bef9525-ba3d-4268-9dcb-a9a3c124caa0/apply?lever-source=Simplify,London,LO,UK
+264,Rejected,False,Mark43,SWE,FrontEnd Engineering Intern- Summer 2024- New York,In-person,https://mark43.com/list-job/?gh_jid=5437630&utm_source=Simplify&gh_src=Simplify,New York,NY,USA
+265,Closed,False,Comcast,SWE,Tech Intern - Software Engineer (TPX),In-person,https://comcast.wd5.myworkdayjobs.com/en-US/Comcast_Careers/job/Tech-Intern---Software-Engineer--TPX-_R370063,Philadelphia,PA,USA
+266,Rejected,True,Discord,SWE,SOFTWARE ENGINEER- CLIENT PLATFORMS INTERN,Remote,https://discord.com/jobs/7003739002,San Francisco,CA,USA
+267,Rejected,True,Discord,SWE,SOFTWARE ENGINEER INTERN - PLATFORM ECOSYSTEMS,Remote,https://discord.com/jobs/7003744002,San Francisco,CA,USA
+268,Rejected,True,Discord,SWE,SOFTWARE ENGINEER INTERN - PERKS (CORE PRODUCT),Remote,https://discord.com/jobs/7003740002,San Francisco,CA,USA
+269,Rejected,True,Discord,SWE,SOFTWARE ENGINEER INTERN - NITRO GROWTH,Remote,https://discord.com/jobs/7003743002,San Francisco,CA,USA
+270,Rejected,True,Ecolab,SWE,Digital ,In-person,https://ecolab.wd1.myworkdayjobs.com/en-US/ecolab_external/job/Digital-Software-Engineering-IT-Intern_R00209414,St. Paul,MN,USA
+271,Applied,False,Zurich Insurance Company Ltd.,SWE,Software Developer Internship (Summer 2024) - Anoka,In-person,https://www.careers.zurich.com/job/Anoka-Software-Developer-Internship-%28Summer-2024%29-Anoka-MN/781736802/?feedId=348902&jobPipeline=Appcast_ZipRecruiter&utm_campaign=Appcast_ZipRecruiter&applySourceOverride=Appcast_ZipRecruiterOrganic&_ccid=16763981540248zuue8hs9,Anoka,MN,USA
+272,Applied,False,MTS,,IT Applications Development Intern,In-person,https://jobs.smartrecruiters.com/itw/743999943213220-it-applications-development-intern?utm_source=ziprecruiter,Eden Prairie,MN,USA
+273,Rejected,True,Beckman Coulter,SWE,Software Engineer Intern,In-person,https://danaher.wd1.myworkdayjobs.com/beckmancoulterdiagnosticsjobs/job/Software-Engineer-Intern_R1246662?utm_source=ziprecruiter,Chaska,MN,USA
+274,Applied,True,KEB America,SWE,Software Design Engineer Intern,In-person,https://www.ziprecruiter.com/jobs/keb-america-a9c32a4c/software-design-engineer-intern-14ef4c84?lvk=dYxQdsqNfkLb8MV6Sd3oTw.--N7yx4CijB&zrclid=e2cff782-bcd5-4059-aa22-8850afd4e1ad,Shakopee,MN,USA
+275,Applied,False,TSI Inc.,SWE,Software Engineer Intern 1,In-person,https://careers.tsi.com/job/Shoreview-Software-Engineer-Intern-1-MN-55126/1076530400/?utm_source=ZipRecruiter&utm_campaign=J2W_ZIP,Shoreview,MN,USA
+276,Applied,True,Garda Capital Partners,SWE,Software Engineer Intern (.NET),In-person,https://boards.greenhouse.io/gardacp/jobs/4445441004?utm_source=ziprecruiter,Wayzata,MN,USA
+277,Applied,True,Ecolab,SWE,Software Engineering IT Intern,In-person,https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/Software-Engineering-IT-Intern_R00209422?utm_source=ziprecruiter,Saint Paul,MN,USA
+278,Rejected,False,The Bernard Group Inc,SWE,"Intern, Java Software Engineer",In-person,https://www.ziprecruiter.com/jobs/the-bernard-group-inc-269334c9/intern-java-software-engineer-f3a95a8e?zrclid=ac1c4641-df60-48ab-a5ba-4045e0cf23f3&lvk=PnrRc1OYEYzxfK1vWggVZg.--N82vr2Quw,Chanhassen,MN,USA
+279,Rejected,True,General Dynamics,SWE,SWE/SHPE Event (2023) - ASIC FPGA Engineering Intern,In-person,https://www.gd.com/careers/swe-shpe-event-2023-asic-fpga-engineering-intern-bloomington-mn-us-2023-60997-gdms-opportunity?utm_source=ziprecruiter,Bloomington,MN,USA
+280,Applied,True,3M,Data Science,Internship - 2024 Undergraduate Data Science & Data Engineering Intern,In-person,https://3m.wd1.myworkdayjobs.com/search/job/Internship---2024-Undergraduate-Data-Science---Engineering-Intern_R01123065?utm_source=ziprecruiter,Maplewood,MN,USA
+281,Rejected,True,Graco,Web Dev,Web Developer Intern,In-person,https://graco.wd5.myworkdayjobs.com/graco_careers/job/Information-Systems-Intern_R0016388?utm_source=ziprecruiter,Minneapolis,MN,USA
+282,Applied,False,"TSI, Inc.",SWE,Sofware Engineer Intern,In-person,https://careers.tsi.com/job/Shoreview-Sofware-Engineer-Intern-MN-55126/1073264400/?utm_source=ZipRecruiter&utm_campaign=J2W_ZIP,Saint Paul,MN,USA
+283,Rejected,True,General Dynamics,SWE,SWE/SHPE Event (2023) - Intern Engineer - Software Engineering,In-person,https://www.gd.com/careers/swe-shpe-event-2023-intern-engineer-software-engineering-bloomington-mn-us-2023-61401-gdms-opportunity?utm_source=ziprecruiter,Bloomington,MN,USA
+284,Closed,False,AeroVironment,SWE,Summer Intern – Software Engineering,In-person,https://avav.wd1.myworkdayjobs.com/avav/job/Summer-Intern---Software-Engineering_4114?utm_source=ziprecruiter,Minneapolis,MN,USA
+285,Applied,False,Thrivent,SWE,Software Developer Intern - Summer 2024,Remote,https://thrivent.wd5.myworkdayjobs.com/external/job/Software-Developer-Intern---Summer-2024_REQ-36005?utm_source=ziprecruiter,Minneapolis,MN,USA
+286,Applied,True,BRADY,SWE,Software Engineer Intern,In-person,https://recruiting.adp.com/srccar/public/RTI.home?c=2175507&d=ExternalCareerSite&r=5000984680806&utm_source=ziprecruiter#/,Plymouth,MN,USA
+287,Applied,False,PAR Systems,SWE,Software Engineering Intern,In-person,https://recruiting.adp.com/srccar/public/RTI.home?c=1115241&d=PARExternalSite&r=5000985739006&utm_source=ziprecruiter#/,Shoreview,MN,USA
+288,Applied,True,Honeywell,SWE,Software Engineer Intern (Bachelor's),In-person,https://honeywell.csod.com/ux/ats/careersite/1/home/requisition/413475?c=honeywell&utm_source=ziprecruiter,Minneapolis,MN,USA
+289,Closed,False,Qualcomm,SWE,FY24 Intern - Display Software Engineering Internship - Canada (4 months),In-person,https://app.eightfold.ai/careers?pid=446695399476&domain=qualcomm.com&recommended=1,Markahm,ON,CAN
+290,Applied,False,Qualcom,SWE,142444 - FY24 Intern - SoC Software Engineering Internship - Canada (12 or 16 months),In-person,https://careers.qualcomm.com/careers/job/446695399140,Markam,ON,CAN
+291,Applied,True,Aurora Innovation,SWE,Software Engineering Internship,In-person,https://simplify.jobs/p/27a12c43-1896-4cc5-bc7e-34d45771681c/Software-Engineering-Internship,Pittsburgh,PA,USA
+292,Applied,True,Bristol-Myers Squibb,,Summer 2024 – Statistical Programming Internship,In-person,https://simplify.jobs/p/bfe8da5d-410a-42d0-9ec2-37a898236b0a/Summer-2024--Statistical-Programming-Internship,"Seattle
+Summit
+Princeton
+San Diego","WA,NJ,CA",USA
+293,Closed,False,CACI,SWE,Software Developer Intern Spring 2024,In-person,https://simplify.jobs/p/8af9396e-c21d-45d3-8834-94939821fff9/Software-Developer-Intern,San Antonio,TX,USA
+294,Rejected,True,Kabam,SWE,Backend Software Engineer – Co-Op,In-person,https://simplify.jobs/p/21a46bdc-2c9c-47a6-ad7d-9dca3a92d712/Backend-Software-Engineer--Co-Op,Vancouver,BC,CAN
+295,Rejected,True,Kabam,SWE,Frontend Software Engineer – Co-Op,In-person,https://simplify.jobs/p/8aeddd6f-8562-494a-b31e-dcfe41edc327/Frontend-Software-Engineer--Co-Op,Vancouver,BC,CAN
+296,Closed,False,BMO,SWE,"Software Developer – Co-op/Internship Winter 2024, 4 months",In-person,https://simplify.jobs/p/adf40de8-6b36-4da8-81d4-595ad3c86dce/Software-Developer--Co-opInternship,Toronto,ON,CAN
+297,Applied,True,Intradiem,SWE,Summer 2024 Software Engineering Intern,Remote,https://simplify.jobs/p/8c73b0d8-becc-4081-a24c-66ab5b3bf37b/Summer-2024-Software-Engineering-Intern,,,USA
+298,Closed,False,Salesforce,SWE,"Summer 2024 Intern Developer Relations, Slack",In-person,https://simplify.jobs/p/0e3891ef-24b7-48f9-8854-2d4c92e1cc63/Summer-2024-Intern,San Francisco,CA,USA
+299,Closed,False,Brooklyn Investment Group,SWE,Full-Stack Software Engineering Intern,In-person,https://simplify.jobs/p/0abe4acb-5d9d-4f8b-b839-797ed9e8168b/Full-Stack-Software-Engineering-Intern,Brooklyn,NY,USA
+300,Closed,False,Astranis,SWE,Full Stack Developer Intern - Web Scraping,In-person,https://simplify.jobs/p/df06a550-87e6-4363-a00f-a8797126bf1e/Full-Stack-Developer-Intern,San Francisco,CA,USA
+301,Rejected,False,Lyft,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/ad132b4f-ea5f-474d-a57c-63bc36f80c23/Software-Engineer-Intern,Toronto,ON,CAN
+302,Closed,False,CACI,SWE,Junior Software Developer Internship,In-person,https://simplify.jobs/p/a0c4c989-6b8a-4f7e-b3df-b4d5c6202cd1/Junior-Software-Developer-Internship,Ashburn,VA,USA
+303,Closed,False,Mozilla,"SWE,Mobile",Mobile Engineering Intern,Remote,https://simplify.jobs/p/5c178118-7d77-4493-95c0-b845c139a69f/Mobile-Engineering-Intern,,,USA
+304,Closed,False,Eulerity,Web Dev,Web Developer Intern,In-person,https://simplify.jobs/p/fd72919b-5b32-4596-a15b-9aebf7dff235/Web-Developer-Intern,New York,NY,USA
+305,Closed,False,School house,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/1885e05f-9a22-471c-ba22-2d2178b35e30/Software-Engineer-Intern,California,CA,USA
+306,Rejected,True,Blizzard,SWE,2024 US Summer Internship - Analytics & Data Science,In-person,https://activision.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/XMLNAME-2024-US-Summer-Internship---Analytics---Data-Science_R021985?utm_source=Simplify&ref=Simplify&src=Simplify,Irvine,CA,USA
+307,,False,Reddit,SWE,Software Engineering Intern (2024),Remote,https://app.ripplematch.com/v2/public/job/c7d28bdf/details?from_page=company_branded_page,,,USA
+308,Rejected,False,SHURE,SWE,Applications Software Development (CWB) Intern,In-person,https://careers-shure.icims.com/jobs/3360/job?mobile=false&width=1385&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Niles,IL,USA
+309,Applied,True,Konrad,SWE,Software Developer Intern - May 2024 (4 months),In-person,https://www.konrad.com/careers/job/software-developer-intern-may-2024-4-months_5730015003,Toronto,ON,CAN
+310,Rejected,False,WeRide,SWE,Software Engineer Intern_Spring/Summer 2024,In-person,https://jobs.lever.co/weride/18ee06ad-a8a7-4bd9-9205-3f465f5068be,San Jose,CA,USA
+311,Rejected,True,Autodesk,SWE,"Intern, Backend Software Engineer (Summer 2024)",Remote,https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Ontario-CAN---Remote/Intern--Backend-Software-Engineer--Summer-2024-_23WD72860,Ontario,ON,CAN
+312,Applied,True,Google,SWE,"User Experience Research Intern, MS, Summer 2024",,https://www.google.com/about/careers/applications/jobs/recommendations/96888475246043846-user-experience-research-intern-ms-summer-2024,,,USA
+313,Rejected,False,SOTI,"QUIP,SWE","141824 - Software Developer Intern (May 2024 12-16 Months)
+SOTI - Campus Recruitment",In-person,https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Creditview-office-HQ/Software-Developer-Intern--May-2024-8-16-Months-_R07287,Mississauga,ON,CAN
+314,Rejected,False,SOTI,"QUIP,SWE",141836 - Software Developer Intern - Simulators (May 2024 12-16 Months) (R07285),In-person,https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Creditview-office-HQ/Software-Developer-Intern---Simulators--May-2024-12-16-Months-_R07285,Mississauga,ON,CAN
+315,Interview 2 -> Rejected,True,Juno Pharmaceuticals,"QUIP,Data,Web Dev",141841 - Data Analytics & Web Development Co-op,In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Mississauga,ON,CAN
+316,Rejected,True,General Motors of Canada,"QUIP,Mobile,SWE","141897 - Android Developer, Infotainment Apps - Software Defined Vehicle",In-person,https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/XMLNAME-2024-Winter-Co-Op---Android-Developer--Infotainment-Apps---SDV_JR-202320778,Markham,ON,CAN
+317,Rejected,True,General Motors of Canada,"QUIP,SWE","141898 - Software Engineering, ADAS and Autonomous - Software Defined Vehicle",In-person,https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/jobs/details/XMLNAME-2024-Winter-Co-Op---Software-Engineering--ADAS-and-Autonomous---Software-Defined-Vehicle_JR-202320777?q=coop&Location_Country=a30a87ed25634629aa6c3958aa2b91ea,Markham,ON,CAN
+318,Rejected,True,Empire Life,"QUIP,SWE",142033 - Student Software Developer,Remote,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,,,CAN
+319,Rejected,False,SOTI,"QUIP,SWE",142283 - Software Developer Intern - SOTI Snap (May 2024 12-16 Months) (R07304),In-person,https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Creditview-office-HQ/Software-Developer-Intern---SOTI-Snap--May-2024-12-16-Months-_R07304,Mississauga,ON,CAN
+320,Rejected,False,SOTI,"QUIP,SWE",142284 - Software Developer Intern - SOTI Mobicontrol Development (May 2024 12-16 Months) (R07306),In-person,https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Creditview-office-HQ/Software-Developer-Intern---SOTI-Mobicontrol-Development--May-2024-12-16-Months-_R07306,Mississauga,ON,CAN
+321,Applied,True,Government of Ontario,"QUIP,SWE",142289 - IT2 (Inclusive Tech Talent Program in the Ontario Public Service) - Developer Student Job,In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Toronto,ON,CAN
+322,Applied,True,Government of Ontario,"QUIP,UI/UX Design",142315 - IT2 (Inclusive Tech Talent Program in the Ontario Public Service) - User Experience Design Student Job,In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Toronto,ON,CAN
+323,Applied,False,Qualcomm,"QUIP,Artificial Intelligence,SWE",141655 - FY24 Intern - Low Power AI Software Development Internship - Canada (12 - 16 months),In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Markham,ON,CAN
+324,Rejected,False,Qualcomm,"QUIP,Artificial Intelligence,SWE","141652 - FY24 Intern - Low-Power AI, Audio, and Sensors Subsystem Engineering Internship- Firmware / Prototyping - Canada (16 months)",In-person,https://careers.qualcomm.com/careers/job/446695217092,Markham,ON,CAN
+325,Applied,False,Qualcomm,"QUIP,Artificial Intelligence,SWE",141630 - FY24 Intern - AI and DSP Applications Software Engineering Internship - Canada (16 months),In-person,https://careers.qualcomm.com/careers/job/446695217872,Markham,ON,CAN
+326,Applied,True,GBatteries,"QUIP,SWE",141473 - Micro-services developer (React/Python),Remote,https://jobs.lever.co/gbatteries/d8cbf566-e048-4409-a3ec-1055bfcc65ea,,ON,CAN
+327,Applied,False,MHI RJ Aviation Group,"QUIP,Data,SWE",141399 - Data and Application Services Developer,In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Mississauga,ON,CAN
+328,Interview 1 -> Complete,False,MHI RJ Aviation Group,"QUIP,Fullstack,SWE",141397 - Full-Stack Software Developer and Analyst,In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Mississauga,ON,CAN
+329,Applied,True,AMD,"QUIP,SWE",140894 - Software Engineer Co-op (16 months),In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Markham,ON,CAN
+330,Applied,True,AMD,"QUIP,SWE",140893 - Software Engineer Co-op (12 months),In-person,https://careers.sso.queensu.ca/myAccount/QUIPStudents/postings.htm,Markham,ON,CAN
+331,Rejected,False,Sabre,SWE,Software Engineering - 2024 Summer Intern,In-person,https://sabre.wd1.myworkdayjobs.com/en-US/SabreJobs/job/Dallas-Fort-Worth-Metroplex/Software-Engineering---2024-Summer-Intern_JR102531?q=intern,Dallas,TX,USA
+332,Applied,True,AeroVironment,SWE,Summer Intern – Software Engineering,In-person,https://avav.wd1.myworkdayjobs.com/avav/job/Minneapolis-MN/Summer-Intern---Software-Engineering_4114,Minneapolis,MN,USA
+333,Applied,True,AeroVironment,SWE,Summer Intern – Software Engineering,In-person,https://avav.wd1.myworkdayjobs.com/avav/job/Minneapolis-MN/Summer-Intern---Software-Engineering_4113,Minneapolis,MN,USA
+334,Rejected,False,Northmarq,SWE,IT Software Engineer Internship,In-person,https://www.northmarq.com/careers/open-positions/,"Minneapolis
+Bloomington",MN,USA
+335,Rejected,True,Lumen,SWE,Intern - Software Developer - Summer 2024,Remote,https://www.wayup.com/i-Information-Technology-and-Services-j-Intern-Software-Developer-Summer-2024-Lumen-433602296737986/?utm_source=linkedin-xml&utm_medium=jobxml&utm_campaign=linkedin-XML-APPS-3876518-33254081&refer=lnkslot-APPS-3876518-33254081,,,USA
+336,Rejected,False,Sabre,UI/UX Design,UX Designer - 2024 Summer Intern,In-person,https://sabre.wd1.myworkdayjobs.com/en-US/SabreJobs/job/Dallas-Fort-Worth-Metroplex/UX-Designer---2024-Summer-Intern_JR102528,Dallas,TX,USA
+337,Closed,False,AMD,SWE,Software Engineer Co-op (16 months),In-person,https://globalcampus-amd.icims.com/jobs/35195/login,Commerce Valley Drive,"CA,ON",CAN
+338,Closed,False,AMD,SWE,Software Engineer Co-op (12 months),In-person,https://globalcampus-amd.icims.com/jobs/35194/login,Commerce Valley Drive,"CA,ON",CAN
+339,Closed,False,AMD,SWE,Software Engineer Co-op (8 months),In-person,https://globalcampus-amd.icims.com/jobs/35237/software-engineer-co-op-%288-months%29/candidate?from=login&eem=p7SaHv1qxFgSCbN%252BxuUNrvNRIIsxOWBjwhbpVvZ8%252BXaHSykDsjgxUTLWIOY4NjA6&code=fd8948a256ada818c9b347d858691595bfb9e218df7bc13a46fa2b9083e97c90&ga=e87c2e35d311c99bd575a144e0569acd4f3e47f721cc17827d93b89980e19507&accept_gdpr=1,Commerce Valley Drive,"CA,ON",CAN
+340,Closed,False,Dish,SWE,Intern - SWE: Front End Development - Summer '24,In-person,https://jobs.dish.com/jobs/80708?mode=job&iis=Job+Board&iisn=LinkedIN.COM,"Englewood
+Littleton
+Englewood",CO,USA
+341,Rejected,False,Pearson,SWE,Intern - Software Engineer,In-person,https://pearson.jobs/durham-nc/intern-software-engineer/BA04FCAEABA1470080E438016D7D8666/job/?vs=10,Durham,NC,USA
+342,,False,Ebay,SWE,Software Engineering Intern (Canada),Hybrid,https://app.ripplematch.com/v2/public/job/e6e0a191/details?from_page=company_branded_page,Toronto,ON,CAN
+343,Rejected,True,Autodesk,SWE,Software Engineer Intern (Winter 2024),Remote,https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Ontario-CAN---Remote/Software-Engineer-Intern--Winter-2024-_23WD72449-1,,ON,CAN
+344,Rejected,False,Workday,SWE,Software Development Engineer Intern,In-person,https://workday.wd5.myworkdayjobs.com/en-US/Workday_Early_Career/job/Software-Development-Engineer-Intern_JR-81163,"Pleasanton
+Beaverton
+Atlanta
+Boulder","CA,OR,GA,CO",USA
+345,Rejected,False,Two Six Technologies,"SWE,Frontend",Front End Software Engineer Summer Intern,In-person,https://simplify.jobs/p/e4feb5da-693f-44d2-9c84-cea92b7a0c6c/Front-End-Software-Engineer-Summer-Intern,Arlington,VA,USA
+346,Rejected,True,Hudl,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/b5928c5f-af56-4ed4-9728-4df1489c156e/Software-Engineer-Intern,Lexington,KY,USA
+347,Applied,True,Dropbox,SWE,Software Engineer Intern,Remote,https://simplify.jobs/p/f19ab67a-f0e0-4b5a-b63a-fac43ff0f8ac/Software-Engineer-Intern,,,USA
+348,Closed,False,Paypal,SWE,Integration Engineer Intern,In-person,https://simplify.jobs/p/bae20e40-40f4-460c-ac04-a0d18f9f97e7/Integration-Engineer-Intern,"Austin
+Chicago
+Scottsdale","TX,IL,AZ",USA
+349,Applied,False,Mark43,Mobile,Native Mobile Engineer,In-person,https://simplify.jobs/p/e474f8a1-7e4a-4857-9632-efb5fee3e2f2/Native-Mobile-Engineer,Toronto,ON,CAN
+350,Closed,False,Gearset,SWE,Software Engineer Intern 2024,In-person,https://simplify.jobs/p/fa7ef635-c80b-41fe-8836-16bcf70d2f94/Software-Engineer-Intern-2024,Belfast,,UK
+351,Rejected,False,Lyft,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/8e71de37-b0b3-469f-aeea-9083837af77b/Software-Engineer-Intern,Seattle,WA,USA
+352,Tech Assessment -> Complete,False,Wayfair,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/5f918cc2-681c-4cea-83ee-dc9aac35dcb8/Software-Engineering-Intern,Toronto,ON,CAN
+353,Applied,False,Sigma Computing,SWE,Software Engineering Intern,In-person,https://simplify.jobs/p/3588abba-92d6-4d14-8560-f7e40c06bb3f/Software-Engineering-Intern,"San Francisco
+New York","CA,NY",USA
+354,Applied,True,Anduril,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/cabc184b-ef7f-47ce-bbb6-9c80c69b7820/Software-Engineer-Intern,Atlanta,GA,USA
+355,Rejected,False,StoneX,Web Dev,Intern - Web Developer,In-person,https://careers-stonex.icims.com/jobs/9844/intern---web-developer/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1569&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,Winter Park,FL,USA
+356,Applied,False,Schonfeld,SWE,2024 Software Engineering – Summer Internship,In-person,https://simplify.jobs/p/4a268f45-158d-44dd-a0f4-aca175b98e42/2024-Software-Engineering--Summer-Internship,New York,NY,USA
+357,Applied,False,Q2,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/8ee724b8-3243-45e6-9b18-ccd119e361c8/Software-Engineer-Inter,Austin,TX,USA
+358,Rejected,False,Splunk,SWE,Software Engineer Intern,In-person,https://simplify.jobs/p/d8271b8e-c055-4a73-adb1-77152eb20ffd/Software-Engineer-Intern,Poland,,PO
+359,Applied,False,Qumulo,SWE,Software Development Engineer – Summer Internship 2024,In-person,https://simplify.jobs/p/6720dafc-8db1-4b6c-8fd4-b0798ab430be/Software-Development-Engineer--Summer-Internship-2024,Seattle,WA,USA
+360,Applied,True,AppLovin,SWE,Mobile Software Engineering Intern,In-person,https://boards.greenhouse.io/applovin/jobs/4286126006?utm_source=Simplify&gh_src=Simplify#app,Palo Alto,CA,USA
+361,Applied,False,Red Hat Jobs,SWE,Software Engineering Intern,In-person,https://us-redhat.icims.com/jobs/100485/software-engineering-intern---pipeline/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420,Raleigh,NC,USA
+362,Rejected,False,Patreon,SWE,Software Engineering Intern,In-person,https://jobs.ashbyhq.com/patreon/2aff03b3-c9be-4590-968c-8439c090c2f2/application,San Fransisco,CA,USA
+363,Applied,True,Adobe,Artificial Intelligence,2024 Intern - Machine Learning Engineer,In-person,https://careers.adobe.com/us/en/job/R141150/2024-Intern-Machine-Learning-Engineer,"San Jose
+Austin
+San Francisco
+Lehi
+Seattle
+New York","CA,TX,WA,NY,UT,MN",USA
+364,Closed,False,Intel,SWE,2023 Fall Recruiting Season: Software Engineer Undergrad Intern,In-person,https://simplify.jobs/p/e472d22e-b2c7-4632-af42-5c3d1c03d574/2023-Fall-Recruiting-Season-Software-Engineer-Undergrad-Intern,,,USA
+365,Rejected,True,Fanduel,SWE,Software Engineering Internship,In-person,https://simplify.jobs/p/598eaf0e-c59f-4f27-817e-c5675dda7286/Software-Engineering-Internship,New York,NY,USA
+366,Rejected,False,OCC,UI/UX Design,Year-Round Intern,In-person,https://simplify.jobs/p/d47ab259-1a4a-44ad-a9aa-3ace8501ac4a/Year-Round-Intern,Chicago,IL,USA
+367,Rejected,True,Alchemy,SWE,Engineering Internship,In-person,https://simplify.jobs/p/e2ce5fc8-c368-4a87-b196-3bf803084143/Engineering-Internship,"San Francisco
+New York","CA,NY",USA
+368,Tech Assessment -> Rejected,True,IBM,"Frontend,SWE",Front End Developer Intern (May 2024 – 16 months),In-person,https://referrals.ibm.com/r/ConnorColwill/job/19159732/front-end-developer-intern-may-2024-16-months-markham-ca/,Markham,ON,CAN
+369,Rejected,True,HPE,SWE,Software Engineering Intern ,In-person,https://careers.hpe.com/us/en/job/1160952/Software-Engineering-Intern?utm_source=linkedin,Bloomington,MN,USA
+370,Rejected,False,Visa,SWE,"Software Engineer, Intern - Summer 2024",,https://usa.visa.com/en_us/jobs/REF64099Z,Highlands Ranch,CO,USA
+371,Tech Assessment -> Rejected,True,IBM,Frontend,2024 Summer Intern: Front End Developer,In-person,https://referrals.ibm.com/r/ConnorColwill/job/19124490/2024-summer-intern-front-end-developer-remote/,"Lowell
+Poughkeepsie
+Raleigh
+San Jose
+Austin","MA,NY,NC,CA,TX",USA
+372,Applied,True,Google,SWE,"User Experience Design Intern, BS/MS, Summer 2024",,https://www.google.com/about/careers/applications/jobs/results/112724967109337798-software-engineering-intern-bs-summer-2024?src=Online%2FGoogle%20Website%2FByF&utm_source=Online%20&utm_medium=careers_site%20&utm_campaign=ByF&distance=50&employment_type=INTERN&target_level=INTERN_AND_APPRENTICE&company=X&company=Verily%20Life%20Sciences&company=Wing&company=Waymo&company=Fitbit&company=Google&company=YouTube&degree=BACHELORS,,,
+373,Rejected,False,Nintendo,SWE,Intern - IT Software Engineer,In-person,https://careers.nintendo.com/job-openings/listing/230000008E.html?src=CWS-10000,Redmond,WA,USA
+374,Rejected,True,CME Group,SWE,Software Engineering Internship - Summer 2024,In-person,https://jobs.cmegroup.com/jobs/13317018-software-engineering-internship-summer-2024,Chicago,IL,USA
+375,Rejected,True,Fidelity,SWE,2024 UNDERGRADUATE SUMMER INTERNSHIP OPPORTUNITIES,In-person,https://jobs.fidelity.com/job-details/18959097/2024-undergraduate-summer-internship-opportunities-westlake-tx/?source=Indeed,Westlake,TX,USA
+376,Rejected,True,HRT,SWE,Software Engineering Internship – Summer 2024,In-person,https://www.hudsonrivertrading.com/careers/job/?gh_jid=5271837&gh_src=2c5e9fda1us,New york,NY,USA
+377,Applied,True,GTS,SWE,Software Engineering Internship - Summer 2024,In-person,https://careers-gtsx.icims.com/jobs/1366/job?utm_source=indeed_integration&iis=Job+Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f&mobile=false&width=1220&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,New York,NY,USA
+378,Rejected,True,Electronic Arts,Data Science,Data Scientist Intern (Bachelors),In-person,https://ea.gr8people.com/jobs/179861/data-scientist-intern-bachelors,Los Angeles,CA,USA
+379,Applied,True,Electronic Arts,Design,Tech Design Intern,In-person,https://ea.gr8people.com/jobs/180510/tech-design-intern,Marina Del Rey,CA,USA
+380,Closed,False,Electronic Arts,SWE,Systems Software Engineer Intern - SUMMER 2024,In-person,https://ea.gr8people.com/jobs/180509/systems-software-engineer-intern-summer-2024,Orlando,FL,USA
+381,Closed,False,Electronic Arts,Design,Experience Design Intern - SUMMER 2024,In-person,https://ea.gr8people.com/jobs/180441/experience-design-intern-summer-2024,Orlando,FL,USA
+382,Rejected,True,Electronic Arts,Design,Experience Design Intern,In-person,https://ea.gr8people.com/jobs/180277/experience-design-intern,Redwood City,CA,USA
+383,Rejected,True,Electronic Arts,Game,Game Design Intern,In-person,https://ea.gr8people.com/jobs/180275/game-design-intern,Redwood City,CA,USA
+384,Applied,True,Electronic Arts,Game,Gameplay Engineer Intern,In-person,https://ea.gr8people.com/jobs/180204/gameplay-engineer-intern,Redwood City,CA,USA
+385,Rejected,True,Electronic Arts,Game,Gameplay Engineer Intern,In-person,https://ea.gr8people.com/jobs/180203/gameplay-engineer-intern,Redwood City,CA,USA
+386,Rejected,True,Electronic Arts,UI/UX Design,UI/UX Design Intern,In-person,https://ea.gr8people.com/jobs/180156/uiux-design-intern,Madison,WI,USA
+387,Rejected,True,Electronic Arts,Game,Gameplay Engineer Intern,In-person,https://ea.gr8people.com/jobs/180153/gameplay-engineer-intern,Madison,WI,USA
+388,Closed,False,Electronic Arts,Design,Experience Design Intern,In-person,https://ea.gr8people.com/jobs/180132/experience-design-intern,Redwood City,CA,USA
+389,Closed,False,Electronic Arts,SWE,Software Engineer Intern,In-person,https://ea.gr8people.com/jobs/180127/software-engineer-intern,Vancouver,BC,CAN
+390,Applied,True,Electronic Arts,SWE,Software Engineer Intern,In-person,https://ea.gr8people.com/jobs/180113/software-engineer-intern,Los Angeles,CA,USA
+391,Applied,True,Electronic Arts,Design,Technical Experience Designer Intern,In-person,https://ea.gr8people.com/jobs/180114/technical-experience-designer-intern,Los Angeles,CA,USA
+392,Rejected,True,Electronic Arts,Product Manager,Product Manager Intern (Apex Legends),In-person,https://ea.gr8people.com/jobs/180110/product-manager-intern-apex-legends,Los Angeles,CA,USA
+393,Closed,False,Electronic Arts,Design,Mission Designer Intern,In-person,https://ea.gr8people.com/jobs/180036/mission-designer-intern,Los Angeles,CA,USA
+394,Rejected,True,Blizzard,UI/UX Design,2024 US Summer Internship - UI/UX Design,In-person,https://careers.blizzard.com/global/en/job/R021281/2024-US-Summer-Internship-UI-UX-Design,Irvine,CA,USA
+395,Rejected,True,Blizzard,Game,2024 US Summer Internship - Game Design,In-person,https://careers.blizzard.com/global/en/job/BLENGLOBALR021526EXTERNALENGLOBAL/2024-US-Summer-Internship-Game-Design?utm_source=indeed&utm_medium=phenom-feeds,Playa Vista,CA,USA
+396,Rejected,True,Blizzard,SWE,2024 US Summer Internship - Software Engineering,In-person,https://careers.blizzard.com/global/en/job/BLENGLOBALR021277EXTERNALENGLOBAL/2024-US-Summer-Internship-Software-Engineering?utm_source=indeed&utm_medium=phenom-feeds,"Irvine
+Santa Monica
+Sherman Oaks
+Austin","CA,TX",USA
+397,Applied,True,Epic,UI/UX Design,User Experience Design Intern,In-person,https://www.linkedin.com/jobs/view/user-experience-design-intern-at-epic-3716019898/,Maddison,WI,USA
+398,Rejected,False,Wayfair,SWE,Software Engineering Internship - Summer 2024,Remote,https://www.wayfair.com/careers/job/software-engineering-internship---summer-----/6914515002,,,USA
+399,Closed,False,Epic Games,SWE,RENDERING PROGRAMMER INTERN (R24578),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4957225004,Cary,NC,USA
+400,Applied,True,Epic Games,"Data,SWE",DATA SOFTWARE ENGINEER INTERN (R24568),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4957105004,Cary,NC,USA
+401,Closed,False,Epic Games,"Backend,SWE",BACKEND ENGINEER INTERN (SOCIAL ECOSYSTEM) (R24601),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4966246004,Vancouver,BC,CAN
+402,Closed,False,Epic Games,"Backend,SWE",BACKEND ENGINEER INTERN (GAME SERVICES) (R24600),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4966249004,Cary,NC,USA
+403,Closed,False,Epic Games,Artificial Intelligence,AI PROGRAMMER INTERN (R24576),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4957204004,Montreal,QC,CAN
+404,Closed,False,Epic Games,UI/UX Design,UI PROGRAMMER INTERN (R24562),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4956964004,Cary,NC,USA
+405,Closed,False,Epic Games,UI/UX Design,UI PROGRAMMER INTERN (R24559),In-person,https://www.epicgames.com/site/en-US/careers/jobs/4956952004,Cary,NC,USA
+406,Closed,False,Epic Games,Frontend,FRONTEND WEB DEVELOPER INTERN,In-person,https://www.epicgames.com/site/en-US/careers/jobs/4969024004,Montreal,QC,CAN
+407,"Applied,Rejected",True,AMD,SWE,Summer 2024 Undergraduate Software Engineering Co-Op/Intern,In-person,https://careers.amd.com/careers-home/jobs/34554?lang=en-us,Austin,TX,USA
+408,Rejected,True,IBM,UI/UX Design,2024 Summer Intern: User Experience (UX) Designer,In-person,https://referrals.ibm.com/r/ConnorColwill/job/19124486/2024-summer-intern-user-experience-ux-designer-remote/,"Austin
+San Jose
+Southbury
+Raleigh
+Rochester
+Poughkeepsie","TX,CA,CT,NC,MN,NY",USA
+409,Applied,True,Apple,SWE,Software Engineering,In-person,https://jobs.apple.com/en-ca/details/200480063/software-engineering-internships?team=STDNT,,CA,USA
+410,Applied,True,Apple,Artificial Intelligence,Machine Learning / AI Internships,In-person,https://jobs.apple.com/en-ca/details/200480066/machine-learning-ai-internships?team=STDNT,,CA,USA
+411,Rejected,True,Dropbox,SWE,Software Engineering Intern (Summer 2024),Remote,https://jobs.dropbox.com/listing/5265677?gh_jid=5265677,,,CAN
+412,Applied,True,Actian,UI/UX Design,UX Intern,Remote,https://jobs.lever.co/actian/940dd517-6733-462d-96fb-65c31264982c,,,USA
+413,Applied,True,Intel,"SWE,Fullstack",Full Stack Software Intern,Remote,https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-US/Full-Stack-Software-Intern_JR0249274?utm_source=Simplify,,,USA
+414,Applied,True,Interac,SWE,Software Developer,In-person,https://interac.wd3.myworkdayjobs.com/en-US/Interac/job/Ottawa/Software-Developer_REQ-962,Ottawa,ON,CAN
+415,Applied,True,Interac,UI/UX Design,Product Design and Development Intern,In-person,https://interac.wd3.myworkdayjobs.com/en-US/Interac/job/Toronto/Product-Design-and-Development-Intern_REQ-972,Toronto,ON,CAN
+416,Rejected,False,Manulife,SWE,Student Internship / Co-op Opportunities Summer 2024 (Just submitting resume),In-person,https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_AdminJobs/job/Student-Internship---Co-op-Opportunities-Summer-2024_JR23081416,"Toronto
+Waterloo",ON,CAN
+417,Applied,False,NVIDIA,SWE,,Remote,https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-Ignite-Internship--Hardware-Software-Business-Operations---Summer-2024_JR1972457,Santa Clara,CA,USA
+418,Applied,False,Point72,SWE,2024 Summer Internship - Trading Desk,,https://boards.greenhouse.io/point72/jobs/6937918002,Stamford,CT,
+419,Rejected,True,Intel,SWE,Software Engineer Intern,In-person,https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineer-Intern_JR0249692,Hillsboro,OR,USA
+420,Rejected,False,Splunk,SWE,"Software Engineer Co-op - Backend/Full-stack (Remote Canada, Winter 2024)",Remote,https://jobs.jobvite.com/splunk-careers/job/oW1sofwx?nl=1&nl=1&fr=false,,,USA
+421,Closed,False,Splunk,SWE,"Software Engineer Intern - Backend/Full-stack (Remote US, Winter 2024)",Remote,https://jobs.jobvite.com/splunk-careers/job/oGJqofwX?nl=1&nl=1&fr=false,,,USA
+422,Closed,False,Splunk,SWE,"Software Engineer Intern - Front-end (Remote US, Winter 2024)",Remote,https://jobs.jobvite.com/splunk-careers/job/oLgrofwA?nl=1&nl=1&fr=false,,,USA
+423,Closed,False,Gramarly,SWE,Software Engineering Intern,,https://boards.greenhouse.io/grammarly/jobs/5396077?gh_src=0bb770131,,,USA
+424,Applied,False,Pinterest,SWE,Mobile Engineer Intern 2024 (USA),Remote,https://www.pinterestcareers.com/en/jobs/5379952/mobile-engineer-intern-2024-usa/?gh_jid=5379952,,,USA
+425,Rejected,False,Pinterest,SWE,Software Engineering Intern 2024 (USA),Remote,https://www.pinterestcareers.com/en/jobs/5379900/software-engineering-intern-2024-usa/?gh_jid=5379900,,,USA
+426,Rejected,False,Pinterest,SWE,Software Engineering Intern 2024 (Palo Alto),In-person,https://www.pinterestcareers.com/en/jobs/5387508/software-engineering-intern-2024-palo-alto/?gh_jid=5387508,Palo Alto,CA,USA
+427,Rejected,False,Zip Recruiter,SWE,Software Engineer - Intern,In-person,https://boards.greenhouse.io/ziprecruiter/jobs/5281195,Santa Monica,CA,USA
+428,Rejected,True,Anduril,SWE,Software Engineer Intern - Summer 2024,In-person,https://jobs.lever.co/anduril/678e291a-29a7-4823-9bef-5a565660d67e,"COSTA MESA
+BOSTON
+SEATTLE","CA,MA,WA",USA
+429,Applied,False,Lyft,SWE,"Software Engineer Intern, Frontend (2024)",In-person,https://app.careerpuck.com/job-board/lyft/job/6941075002?gh_jid=6941075002,New York,NY,USA
+430,Applied,False,Lyft,SWE,"Software Engineer Intern, Frontend (2024)",In-person,https://app.careerpuck.com/job-board/lyft/job/6941075002?gh_jid=6941075002,San Francisco,CA,USA
+431,Applied,False,Lyft,SWE,"Software Engineer Intern, Frontend (2024)",In-person,https://app.careerpuck.com/job-board/lyft/job/6941075002?gh_jid=6941075002,Seattle,WA,USA
+432,Rejected,False,Warner Bros Discovery,SWE,Software Engineering Intern - Summer 2024,In-person,https://warnerbros.wd5.myworkdayjobs.com/en-US/global/job/Software-Engineering-Intern---Summer-2024_R000072947,"Atlanta
+San Francisco
+New York
+Los Angeles
+Bellevue
+Seattle ","GA,CA,NY,WA,NE",USA
+433,Applied,True,Home Depot,SWE,SOFTWARE ENGINEER INTERNSHIP (REMOTE – SUMMER 2024),Remote,https://careers.homedepot.com/job/19064809/software-engineer-internship-remote-atlanta-ga/,Atlanta,GA,USA
+434,Closed,False,Robinhood,SWE,Backend Engineer Intern (2024),In-person,https://app.ripplematch.com/v2/public/job/3dd1d6c4/details?tl=9e7bc756&fromPage=tracking_link,"Park
+New York",CA,USA
+435,Closed,False,Robinhood,SWE,Android Engineer Intern (2024),In-person,https://app.ripplematch.com/v2/public/job/e50341fc/details?from_page=company_branded_page,"Park
+New York",CA,USA
+436,Closed,False,Robinhood,SWE,Web Engineer Intern,In-person,https://app.ripplematch.com/v2/public/job/a5c57f16/details?tl=87b54c48&fromPage=tracking_link,"Park
+New York",CA,USA
+437,Rejected,False,Robinhood,SWE,iOS Engineer Intern (2024),In-person,https://app.ripplematch.com/v2/public/job/801850f8/details?from_page=company_branded_page,"Park
+New York",CA,USA
+438,Applied,True,Cockroach Labs,"Frontend,SWE",Software Engineer Winter Intern (Frontend) - New York City,In-person,https://www.cockroachlabs.com/careers/jobs/?gh_jid=5370045,New York ,NY,USA
+439,,False,Anyscale,SWE,Software Engineer (Summer Intern 2024),In-person,https://jobs.lever.co/anyscale/386efaac-c106-42ee-9bca-206b29b0aeae,SAN FRANCISCO,CA,USA
+440,Applied,False,Relativity Space,SWE,S,In-person,https://boards.greenhouse.io/rsinternboard/jobs/6905930002,LONG BEACH,CA,USA
+441,Applied,False,Lyft,SWE,"Software Engineer Intern, Backend (2024)",In-person,https://app.careerpuck.com/job-board/lyft/job/6932376002?gh_jid=6932376002&utm_source=Simplify&ref=Simplify,"NY, New York",NY,USA
+442,Rejected,False,Starbucks,SWE,"undergraduate intern, software engineer – Starbucks Technology Summer 2024",In-person,https://starbucks.taleo.net/careersection/1000222intern/jobdetail.ftl?job=230066246&tz=GMT-05:00&tzname=America/Chicago&utm_source=Simplify&ref=Simplify,Seattle,WA,USA
+443,Rejected,True,Atlassian,Product Manager,"Associate Product Management Intern, 2024 Summer U.S.",Remote,https://www.atlassian.com/company/careers/details/10623?utm_source=Simplify&ref=Simplify,San Francisco,CA,USA
+444,Applied,False,Southwest,SWE,Southwest Computer Science Internship,,https://careers.southwestair.com/direct-college-hire,,,USA
+445,Rejected,False,NVIDEA,SWE,NVIDIA 2024 Internships: Software Engineering Intern,Remote,https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/NVIDIA-2024-Internships--Software-Engineering-Intern_JR1970082,,,USA
+446,Applied,True,Doordash,SWE,"Software Engineer, Intern (Summer 2024)",In-person,https://boards.greenhouse.io/doordash/jobs/5305271?gh_src=Simplify#app,"LOS ANGELES
+NEW YORK
+SAN FRANCISCO
+SEATTLE","CA,NY,WA",USA
+447,Applied,False,NVIDEA,Artificial Intelligence,NVIDIA 2024 Internships: Artificial Intelligence Engineering Intern,Remote,https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2024-Internships--Artificial-Intelligence-Engineering-Intern_JR1970080?utm_source=Simplify,Santa Clara,CA,USA
+448,Rejected,True,Duolingo,SWE,"Software Engineer, Thrive Intern",In-person,https://boards.greenhouse.io/duolingo/jobs/6936339002?gh_src=8903756e2us,Pittsburgh,PA,USA
+449,Applied,True,Amazon,SWE,Software Development Engineer Intern - 2024 (Canada),In-person,https://www.amazon.jobs/en/jobs/2408093/software-development-engineer-intern-2024-canada,,ON,CAN
+450,Closed,False,RBC,SWE,"RBC Amplify Program, Developer, Data Engineer",In-person,https://jobs.rbc.com/ca/en/amplify,,,CAN
+451,Applied,True,Konrad,SWE,Software Developer Intern - May 2024 (4 months),In-person,https://www.konrad.com/careers/job/software-developer-intern-may-2024-4-months_5730015003,Toronto,ON,CAN
+452,Closed,False,Bell,"Data,Artificial Intelligence",2024 Internship Program - AI & Data Engineering,,https://jobs.bell.ca/ca/en/apply/sf22/1?jobSeqNo=BECACA414139EXTERNALENCA,,,CAN
+453,Applied,False,Walmart,SWE,2024 Summer Intern: Software Engineer II,Remote,https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/XMLNAME-2024-Summer-Intern--Software-Engineer-II--Sam-s-Club-_R-1652587-1?utm_source=Simplify,"Bentonville
+Dallas
+Atlanta","AR,TX,GA",USA
+454,Applied,True,CERTIK,SWE,Platform Engineering Intern,Remote,https://simplify.jobs/p/060015e8-5827-4c51-a56e-cda567016743/Platform-Engineering-Intern,"Seattle
+San Francisco
+New York","WA,CA,NY",USA
+455,,False,ULINE,UI/UX Design,UX Internship,In-person,https://app.ripplematch.com/v2/public/application/apply/043d9f7f0b96489aad879740655d3709?appPublicId=043d9f7f0b96489aad879740655d3709,Pleasant Prairie,WI,USA
+456,Applied,False,Epic,SWE,Software Development Intern,In-person,https://app.ripplematch.com/v2/public/job/bd25e46a/apply?from_page=company_branded_page,Maddison,WI,USA
+457,,False,Amazon,SWE,Software Development Engineer Internship - 2024 (US),In-person,https://www.amazon.jobs/en/jobs/2408098/software-development-engineer-internship-2024-us,"Phoenix
+Tempe
+Berkeley
+Culver City
+Cupertino
+East Palo Alto
+Irvine
+Los Angeles
+Manhattan Beach
+Palo Alto
+San Diego
+San Francisco
+San Jose
+San Luis Obispo
+Santa Barbara
+Santa Clara
+Santa Cruz
+Santa Monica
+Sunnyvale
+Boulder
+Denver
+Atlanta
+Kennesaw
+Chicago
+Boston
+Cambridge
+Hudson
+North Reading
+Westborough
+Baltimore
+Detroit
+Minneapolis
+Jersey City
+New York
+Portland
+Philadelphia
+Pittsburgh
+Nashville
+Austin
+Dallas
+Arlington
+Herndon
+Madison
+Bellevue
+Seattle
+Redmond","WA,AZ,CA,CO,IL,GA,MA,MD,MI,MN,NY,NJ,OR,PA,TN,TX,VA,WI",USA
+458,Applied,False,Verkada,SWE,"Software Engineering Intern, Security - Summer 2024",In-person,https://jobs.lever.co/verkada/30f11a8c-051d-4966-be60-5d8e65e4c4a7,San Mateo,CA,USA
+459,Rejected,True,American Express,SWE,"Campus Undergraduate - 2024 Technology Software Engineering Internship Phoenix, AZ",In-person,https://aexp.eightfold.ai/careers/job/17434998,Phoenix,AZ,USA
+460,Closed,False,NVIDEA,SWE,"Software Intern, GPU Monitoring and Diagnostics - Winter 2024",In-person,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Software-Intern--GPU-Monitoring-and-Diagnostics---Winter-2024_JR1970755,"Redmond
+Champaign","WA,IL",USA
+461,Applied,True,Byte Dance,"SWE,Network",Network Software Development Engineer Intern (SDN-Network Analytics) - 2024 Summer (BS/MS),In-person,https://jobs.bytedance.com/en/position/7267605397714979127/detail,"Seattle, WA",WA,USA
+462,Closed,False,LinkedIn,SWE,Undergraduate Software Engineering Internship - Summer 2024,Hybrid,https://www.linkedin.com/jobs/view/3690755535/,Sunnyvale,CA,USA
+463,Applied,False,Tesla,"Game,UI/UX Design","Internship, Video Game Engineer, Infotainment UI (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-video-game-engineer-infotainment-ui-winter-spring-2024-204007,Palo Alto,CA,USA
+464,Closed,False,Stripe,SWE,Software Engineering Intern,In-person,https://stripe.com/jobs/listing/software-engineering-intern/5297261,"New York City
+Seattle
+South San Fran","CA,NY,WA",USA
+465,Closed,False,Stripe,SWE,Software Engineering Intern,In-person,https://stripe.com/jobs/listing/software-engineering-intern/5306054,Toronto,ON,CAN
+466,Closed,False,Tesla,UI/UX Design,"Internship, Creative Technologist, UI Design (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-creative-technologist-ui-design-winter-spring-2024-206898,Hawthorne,CA,USA
+467,Applied,False,Verkada,SWE,"Software Engineering Intern, Backend - Summer 2024",In-person,https://jobs.lever.co/verkada/880f563d-3fff-4aff-b6f2-2aab0510ebf4,San Mateo,CA,USA
+468,Rejected,False,Verkada,,Android Engineering Intern - Summer 2024,In-person,https://jobs.lever.co/verkada/ad8e440d-5eec-495f-b5bc-6c9cd36f0561,San Mateo,CA,USA
+469,Applied,False,Verkada,SWE,"Software Engineering Intern, Frontend - Summer 2024",In-person,https://jobs.lever.co/verkada/fd9a050a-d55d-4b68-97c1-b940c5a0b806,San Mateo,CA,USA
+470,Applied,False,Verkada,SWE,"Software Engineering Intern, Security - Summer 2024",In-person,https://jobs.lever.co/verkada/30f11a8c-051d-4966-be60-5d8e65e4c4a7,San Mateo,CA,USA
+471,Closed,False,Verkada,Mobile,iOS Engineering Intern - Summer 2024,In-person,https://jobs.lever.co/verkada/f8bf2f92-162e-497e-a42f-a849b4e5dfb2,San Mateo,CA,USA
+472,Rejected,True,Data Dog,SWE,Software Engineer Intern (Summer),In-person,https://app.ripplematch.com/v2/public/job/e9a5081a/details,New York,NY,USA
+473,Rejected,True,Door Dash,SWE,"Software Engineer, Intern - Toronto (Summer 2024)",In-person,https://www.linkedin.com/jobs/view/3700549563/?originalSubdomain=ca,Toronto,ON,CAN
+474,Applied,False,Tesla,"Frontend,SWE","Internship, Frontend Software Engineer, Vehicle Software (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-frontend-software-engineer-vehicle-software-winter-spring-2024-204364,Palo Alto,CA,USA
+475,Closed,False,Tesla,Security,"Internship, Security Engineer, Applications Engineering (Winter/Spring 2024)",,https://www.tesla.com/careers/search/job/internship-security-engineer-applications-engineering-winter-spring-2024-204277,Fremont,CA,USA
+476,Applied,False,Tesla,"Frontend,UI/UX Design","Internship, Frontend Software Engineer, UI Design (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-frontend-software-engineer-ui-design-winter-spring-2024-206899,Hawthorne,CA,USA
+477,Applied,False,Tesla,"SWE,Fullstack","Internship, Fullstack Software Engineer, Maps & Autopilot Navigation (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-fullstack-software-engineer-maps-autopilot-navigation-winter-spring-2024-204367,Palo Alto,CA,USA
+478,Applied,False,Microsoft,SWE,"Software Engineering: Intern Opportunities for University Students, Redmond",Hybrid,https://jobs.careers.microsoft.com/global/en/job/1590499/Software-Engineering%3A-Intern-Opportunities-for-University-Students%2C-Redmond,Redmond,WA,USA
+479,Applied,False,Microsoft,SWE,"Aug Software Engineering: Intern Opportunities for University Students, Bay Area",Hybrid,https://jobs.careers.microsoft.com/global/en/job/1598557/Software-Engineering%3A-Intern-Opportunities-for-University-Students%2C-Bay-Area,Mountain View,CA,USA
+480,Closed,False,Microsoft,SWE,"Software Engineering: Intern Opportunities for University Students, San Diego",Hybrid,https://jobs.careers.microsoft.com/global/en/job/1598559/Software-Engineering%3A-Intern-Opportunities-for-University-Students%2C-San-Diego,San Diego,CA,USA
+481,Applied,False,Microsoft,SWE,"Software Engineering: Intern Opportunities for University Students, Fargo",Hybrid,https://jobs.careers.microsoft.com/global/en/job/1598635/Software-Engineering%3A-Intern-Opportunities-for-University-Students%2C-Fargo,Fargo,ND,USA
+482,"Applied,Rejected",True,Figma,Data,Data Scientist Intern (2024),In-person,https://boards.greenhouse.io/figma/jobs/4956894004,"San Francisco
+New York","CA,NY",USA
+483,"Applied,Rejected",True,Figma,UI/UX Design,Product Design Intern (2024),In-person,https://boards.greenhouse.io/figma/jobs/4945802004,"San Francisco
+New York","CA,NY",USA
+484,"Rejected,Applied",False,Microsoft,Product Manager,"Technical Program Manager: Intern Opportunities for University Students, Redmond",Hybrid,https://jobs.careers.microsoft.com/global/en/job/1605717/Technical-Program-Manager%3A-Intern-Opportunities-for-University-Students%2C-Redmond,Redmond,WA,USA
+485,Closed,False,Microsoft,Product Manager,"Product Manager: Intern Opportunities for University Students, Multiple Locations",Remote,https://jobs.careers.microsoft.com/global/en/job/1605913/Product-Manager%3A-Intern-Opportunities-for-University-Students%2C-Multiple-Locations,,,USA
+486,Applied,False,Tesla,SWE,"Internship, Embedded Software Engineer, Audio Systems (Winter/Spring 2024)",In-person,https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-audio-systems-winter-spring-2024-204280,Palo Alto,CA,USA
+487,Applied,False,Netflix,SWE,Software Engineer Intern,In-person,https://jobs.netflix.com/jobs/298350570,Los Gatos,CA,USA
+488,"Rejected,Applied",True,Google,SWE,"Software Engineering Intern, BS, Summer 2024",In-person,https://www.google.com/about/careers/applications/jobs/results/112724967109337798-software-engineering-intern-bs-summer-2024?src=Online%2FGoogle%20Website%2FByF&utm_source=Online%20&utm_medium=careers_site%20&utm_campaign=ByF&distance=50&employment_type=INTERN&target_level=INTERN_AND_APPRENTICE&company=X&company=Verily%20Life%20Sciences&company=Wing&company=Waymo&company=Fitbit&company=Google&company=YouTube&degree=BACHELORS,"Mountain View
+Ann Arbor
+28 more","CA,MI",USA
+489,Closed,False,Microsoft,SWE,"Software Engineering: Intern Opportunities for University Students, Multiple Locations",Remote,https://jobs.careers.microsoft.com/global/en/job/1598641/Software-Engineering%3A-Intern-Opportunities-for-University-Students%2C-Multiple-Locations,,,USA
