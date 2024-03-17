@@ -9,21 +9,18 @@ import os
 from flask import Flask
 from flask_cors import CORS
 
+NOTION_TOKEN = os.getenv('NOTION_TOKEN')
+DATABASE_ID = os.getenv('DATABASE_ID')
+
 app = Flask(__name__)
 CORS(app)
 
-
-@app.route('/', methods=['GET'])
-def retrieve_data():
-    pages = get_pages()
-    status_data = get_status_data(pages)
-    print(status_data)
-    return '{"results":"'+str(status_data)+'"}'
-
-
-
-NOTION_TOKEN = os.getenv('NOTION_TOKEN')
-DATABASE_ID = os.getenv('DATABASE_ID')
+# @app.route('/', methods=['GET'])
+# def retrieve_data():
+#     pages = get_pages()
+#     status_data = get_status_data(pages)
+#     print(status_data)
+#     return '{"results":"'+str(status_data)+'"}'
 
 HEADERS = {
     "Authorization": "Bearer " + NOTION_TOKEN,
@@ -91,77 +88,65 @@ def application_status_graph(df_applications):
     # function to show the plot
     plt.show()
 
-def applied_state_graph(title, data):
+def applied_state_graph(df_applications):
+    applied_df = df_applications[df_applications['STATUS'] == 'Applied']
 
-    # Aggregate counts into buckets of months
-    state_data = dict(Counter(data))
+    # Apply the function to each row and stack the resulting Series
+    stacked_states = applied_df.apply(split_and_count_states, axis=1).stack()
 
-    # Sort the dictionary by values
-    sorted_dict = sorted(state_data.items(), key=lambda x: x[1], reverse=True) 
-    
-    # Extract the state names and counts into their own lists
-    height = [i[1] for i in sorted_dict]
-    tick_labels = [i[0] for i in sorted_dict]
-
-    # Create the bar chart values
-    x_values = range(len(state_data))
+    state_counts = stacked_states.value_counts()  # Count the occurrences of each state
+    total_states = state_counts.shape[0]  # Get the number of unique states
+    tick_labels = state_counts.index  # Get tick labels (state names)
+    x_values = range(total_states)  # Create the range for x-axis
 
     # Create the bar chart
     plt.bar(
-        x = x_values,
-        height = height, 
-        tick_label = tick_labels,
-        width = 0.8, 
-        color = ['blue', 'red', 'orange', 'yellow']
+        x=x_values,
+        height=state_counts.values,
+        tick_label=tick_labels,
+        width=0.8,
+        color=['blue', 'red', 'orange', 'yellow']  # Adjust colors as needed
     )
-
-    # naming the x-axis
-    plt.xlabel('State')
-
-    # naming the y-axis
-    plt.ylabel('Number')
-
-    # plot title
-    plt.title(title)
     
-    # Adjust labels
+    plt.xlabel('State')
+    plt.ylabel('Number')
+    plt.title("Applied State Graph")
     plt.xticks(x_values, tick_labels, rotation=45, ha='right')  # Rotate the labels for better readability
-
-    # function to show the plot
     plt.show()
 
-def get_dates(pages):
-    dates = []
-    for page in pages:
-        dates.append(page["created_time"].split("T")[0])
-    return dict(Counter(dates))
 
-# def date_applied_line_graph():
-    
-#     # Aggregate counts into buckets of months
-#     monthly_counts = defaultdict(int)
-#     for date_str, count in data.items():
-#         date = datetime.strptime(date_str, '%Y-%m-%d')
-#         month_year = date.strftime('%Y-%m')
-#         monthly_counts[month_year] += count
-#     months = list(monthly_counts.keys())[::-1]
-#     counts = list(monthly_counts.values())
+def date_applied_line_graph(df_applications):
+    df_applications['TIME_CREATED'] = pd.to_datetime(df_applications['TIME_CREATED'])
+    df_applications.set_index('TIME_CREATED', inplace=True)
 
+    # Resample the data to a weekly frequency and count the data points for each week
+    weekly_counts = df_applications.resample('W').count()
 
-#     plt.plot(months, counts, marker=',', linestyle='-')
+    plt.plot(
+        weekly_counts.index, 
+        weekly_counts['URL'].values, 
+        marker=',', 
+        linestyle='-'
+    )
 
-#     # Rotate x-axis labels for better readability
-#     plt.xticks(rotation=45, ha='right')
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
 
-#     # Set labels and title
-#     plt.xlabel('Date')
-#     plt.ylabel('Count')
-#     plt.title(title)
+    # Set labels and title
+    plt.xlabel('Date')
+    plt.ylabel('Count')
+    plt.title("Date Applied Line Graph")
 
-#     # Display the plot
-#     plt.tight_layout()
-#     plt.show()
+    # Display the plot
+    plt.tight_layout()
+    plt.show()
 
+def split_and_count_states(row):
+    try:
+        states = row['STATE'].split(', ')  # Split the string by comma and space
+    except:
+        states = None
+    return pd.Series(states)
 
 def get_row_data(pages, page_num):
         # Iterate over each status tag
@@ -235,6 +220,7 @@ def get_row_data(pages, page_num):
             "CITY":city,
             "STATE":state_string,
             "COUNTRY":country,
+            "TIME_CREATED":pages[page_num]["created_time"].split("T")[0]
         }
         
         return new_row
@@ -252,6 +238,7 @@ def data_to_dataframe(pages):
             "CITY":[],
             "STATE":[],
             "COUNTRY":[],
+            "TIME_CREATED":[],
         }
     )
     
@@ -262,22 +249,27 @@ def data_to_dataframe(pages):
 
     return applications_datagrame
         
-def console_program():
-    print("Load Application Data from Spreadsheet? [Y/N]")
-    csv_val = input()
+def cli_program():
     
-    if csv_val == "N":
-        print("Loading data from API...\n")
-        pages = get_pages()
-        df_applications = data_to_dataframe(pages)
-        print("Data Succesfully loaded from the Notion API!\n")
-        df_applications.to_csv('application_data.csv')
-        print("Data Saved to csv file\n")
-        
-
-    else:
-        print("Loading data from previous session...\n")
-        df_applications = pd.read_csv('application_data.csv')
+    continue_flag = 0
+    while continue_flag == 0:
+        print("Load Application Data from Spreadsheet? [Y/N]")
+        csv_val = input()
+        if csv_val == "N" or csv_val == "n":
+            print("Loading data from API...\n")
+            pages = get_pages()
+            df_applications = data_to_dataframe(pages)
+            print("Data Succesfully loaded from the Notion API!\n")
+            df_applications.to_csv('application_data.csv')
+            print("Data Saved to csv file\n")
+            continue_flag = 1
+        elif csv_val == "Y" or csv_val == "y":
+            print("Loading data from previous session...\n")
+            df_applications = pd.read_csv('application_data.csv')
+            continue_flag = 1
+        else:
+            print("\nThat option did not work, please try again:\n")
+            continue_flag = 0
     
     exit_flag = 0
     while exit_flag == 0:
@@ -285,20 +277,19 @@ def console_program():
         print("choose which graph to view:")
         print("=-=-=-=-=-=-=-=-=-=-=-=-=-=")
         print("[ 1 ] Date Applied Line Graph")
-        print("[ 2 ] application_status_graph")
-        print("[ 3 ] Date Applied Line Graph")
+        print("[ 2 ] Jobs Applied by Status")
+        print("[ 3 ] Jobs Applied by State")
         print("[ Q ] Quit the program")
         
         choice = input()
         
         match choice:
             case "1":
-                # date_applied_line_graph()
-                exit_flag = 0
+                date_applied_line_graph(df_applications)
             case "2":
                 application_status_graph(df_applications)
             case "3":
-                applied_state_graph('Applications Location - Applied')
+                applied_state_graph(df_applications)
             case "Q":
                 exit_flag = 1
             case "q":
@@ -306,8 +297,18 @@ def console_program():
             case _:
                 print("\nThat option did not work, please try again:\n")
 
+def testing():
+    # TESTING ONLY
+    pages = get_pages()
+    df_applications = pd.read_csv('application_data.csv')
+    applied_state_graph(df_applications)
+    date_applied_line_graph(df_applications)
+    print(df_applications["TIME_CREATED"].tolist())
+
 def main():
-    console_program()
+    cli_program()
+    # testing()
+    
 
 if __name__ == "__main__":
     main()
