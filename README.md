@@ -1,5 +1,7 @@
 # Notion Job Tracker: Planning and Tracking Job Applications Seamlessly
 
+![Template Image](https://s3.us-west-2.amazonaws.com/public.notion-static.com/template/b89bd3b4-0075-4d67-9dc0-415d509ccaef/1710682724548/desktop.jpg)
+
 ## Tech Stack
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![Flask](https://img.shields.io/badge/Flask-1.1.4-blue)
@@ -64,3 +66,5 @@ bun dev
 ## How to Use this project
 Once the tool is successfully installed and working, you can use this to track, visualize, and share graphs of your job application metrics.
 
+
+![Cover Image](https://schuylergood.com/static/media/NotionV2.06844d085c9b993eed03.png)
