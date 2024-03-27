@@ -8,6 +8,7 @@ from datetime import datetime
 import os
 from flask import Flask
 from flask_cors import CORS
+import plotly.graph_objects as go
 
 NOTION_TOKEN = os.getenv('NOTION_TOKEN')
 DATABASE_ID = os.getenv('DATABASE_ID')
@@ -162,6 +163,25 @@ def date_applied_line_graph(df_applications):
     # Display the plot
     plt.tight_layout()
     plt.show()
+
+def sanky_graph(df):
+    fig = go.Figure(data=[go.Sankey(
+    node = dict(
+        pad = 15,
+        thickness = 20,
+        line = dict(color = "black", width = 0.5),
+        label = ["A1", "A2", "B1", "B2", "C1", "C2"],
+        color = "blue"
+    ),
+    
+    link = dict(
+        source = [0, 1, 0, 2, 3, 3], # indices correspond to labels, eg A1, A2, A1, B1, ...
+        target = [2, 3, 3, 4, 4, 5],
+        value = [8, 4, 2, 8, 4, 2]
+    ))])
+
+    fig.update_layout(title_text="Basic Sankey Diagram", font_size=10)
+    fig.show()
 
 def split_and_count_states(row):
     try:
@@ -325,11 +345,13 @@ def testing():
     df_applications = pd.read_csv('application_data.csv')
     # applied_state_graph(df_applications)
     # date_applied_line_graph(df_applications)
-    application_status_graph(df_applications)
+    sanky_graph(df_applications)
+    # application_status_graph(df_applications)
 
 def main():
-    cli_program()
-    # testing()
+    # cli_program()
+    
+    testing()
     
 
 if __name__ == "__main__":
