@@ -165,22 +165,90 @@ def date_applied_line_graph(df_applications):
     plt.show()
 
 def sanky_graph(df):
+    # Step 1: Identify all unique status values
+    unique_statuses = set(['Need to Apply','Applied','Closed','Rejected','Coffee Chat','Tech Assessment -> Complete','Interview 1 -> Complete','Interview 2 -> Complete','Interview 3 -> Complete','Referral'])
+
+    # Step 2: Create new columns for each unique status
+    for status in unique_statuses:
+        df[status.strip()] = False
+
+    # Step 3: Check if each status is present in the 'STATUS' column for each row
+    for index, row in df.iterrows():
+        if isinstance(row['STATUS'], str):
+            for status in row['STATUS'].split(','):
+                df.at[index, status.strip()] = True
+
+    # Step 4: Count the number of occurrences of each status and store in a dictionary
+    status_counts = {}
+    for status in unique_statuses:
+        status_counts[status.strip()] = df[status.strip()].sum()
+
+    # =-=-=-=-=-=-=-=-= Counting Values =-=-=-=-=-=-=-=-=
+
+    # All apps that needed to apply and added to database
+    need_to_apply = ((df['Need to Apply'] == True)).sum()
+
+    # All apps that had a coffee chat
+    coffee_chat = ((df['Coffee Chat'] == True)).sum()
+
+    # All apps that were needed to apply and then closed
+    closed = ((df['Need to Apply'] == True) & (df['Closed'] == True)).sum()
+
+    # All apps 
+    cold_applied = ((df['Need to Apply'] == True) & (df['Closed'] == True)).sum()
+
+    # All apps that were Closed
+    rejected = ((df['Need to Apply'] == True) & (df['Closed'] == True)).sum()
+
+    # All apps that had compete Tech Assessments
+    tech_assessment = ((df['Need to Apply'] == True) & (df['Closed'] == True)).sum()
+
+    # All apps that completed an interview
+    interview_1 = ((df['Interview 1 -> Complete'] == True)).sum()
+
+    # All apps that completed a second interview
+    interview_2 = ((df['Interview 2 -> Complete'] == True)).sum()
+
+    # All apps that completed a third interview
+    interview_3 = ((df['Interview 3 -> Complete'] == True)).sum()
+
+    # All apps that were rejected
+    coffee_chat_referral = ((df['Coffee Chat'] == True) & (df['Referral'] == True)).sum()        
+    
+    referral_applied = ((df['Referral'] == True) & (df['Applied'] == True)).sum()
+    
+    print(status_counts)
+    print(df.columns)
+    print("BOTH:",cold_applied)
+
     fig = go.Figure(data=[go.Sankey(
     node = dict(
         pad = 15,
         thickness = 20,
         line = dict(color = "black", width = 0.5),
-        label = ["A1", "A2", "B1", "B2", "C1", "C2"],
-        color = "blue"
+        label = [
+            "Need to Apply: ("+str(need_to_apply)+")", # 0
+            "Coffee Chat: ("+str(coffee_chat)+")", # 1
+            "Closed: ("+str(closed)+")", # 2
+            "Applied: ("+str(cold_applied)+")", # 3
+            "Rejected: ("+str(rejected)+")", # 4
+            "Tech Assessment: ("+str(tech_assessment)+")", # 5
+            "First Round Interview: ("+str(interview_1)+")", # 6
+            "Second Round Interview: ("+str(interview_2)+")", # 7
+            "Third Round Interview: ("+str(interview_3)+")", # 8
+            "Referral: ("+str(coffee_chat_referral)+")", # 9
+            "Applied with Refferal: ("+str(referral_applied)+")", # 10
+        ],
+        color = "red"
     ),
     
     link = dict(
-        source = [0, 1, 0, 2, 3, 3], # indices correspond to labels, eg A1, A2, A1, B1, ...
-        target = [2, 3, 3, 4, 4, 5],
-        value = [8, 4, 2, 8, 4, 2]
+        source = [0, 0, 1, 9, 3], # indices correspond to labels, eg A1, A2, A1, B1, ...
+        target = [3, 2, 9, 10, 4],
+        value = [cold_applied, closed, coffee_chat_referral, referral_applied, rejected]
     ))])
 
-    fig.update_layout(title_text="Basic Sankey Diagram", font_size=10)
+    fig.update_layout(title_text="Applications", font_size=22)
     fig.show()
 
 def split_and_count_states(row):
@@ -321,6 +389,7 @@ def cli_program():
         print("[ 1 ] Date Applied Line Graph")
         print("[ 2 ] Jobs Applied by Status")
         print("[ 3 ] Jobs Applied by State")
+        print("[ 4 ] Sanky Graph")
         print("[ Q ] Quit the program")
         
         choice = input()
@@ -332,6 +401,8 @@ def cli_program():
                 application_status_graph(df_applications)
             case "3":
                 applied_state_graph(df_applications)
+            case "4":
+                sanky_graph(df_applications)
             case "Q":
                 exit_flag = 1
             case "q":
@@ -347,10 +418,16 @@ def testing():
     # date_applied_line_graph(df_applications)
     sanky_graph(df_applications)
     # application_status_graph(df_applications)
+    # print(df.head(100))
+
+    
+    # rejected_count = (df['STATUS'] == 'Rejected').sum()
+    
+    # print("Total 'Applied' count:", applied_count)
+
 
 def main():
     # cli_program()
-    
     testing()
     
 
