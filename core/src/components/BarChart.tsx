@@ -22,6 +22,15 @@ class BarChart extends Component {
             .attr("width", 65)
             .attr("height", (d, i) => d * 10)
             .attr("fill", "green");
+
+        svg.selectAll("text")
+        .data(data)
+        .enter()
+        .append("text")
+        .text((d) => d)
+        .attr("x", (d, i) => i * 70)
+        .attr("y", (d, i) => 300 - (10 * d) - 3)
+
     }
     render() {
         return <div id={"#" + this.props.id}></div>

@@ -7,7 +7,7 @@ const cors = require('cors'); // Import the cors middleware
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3001'
+    origin: 'http://localhost:3000'
 }));
 
 app.get('/', async (req, res) => {
@@ -116,6 +116,6 @@ app.get('/', async (req, res) => {
 //     }
 // })
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(3001, () => {
+    console.log('Server is running on port 3001');
 });
