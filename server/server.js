@@ -2,8 +2,13 @@ require('dotenv').config(); // Takes all env files into process.env
 
 const express = require('express');
 const notion = require('./notion');
+const cors = require('cors'); // Import the cors middleware
 
 const app = express();
+
+app.use(cors({
+    origin: 'http://localhost:3001'
+}));
 
 app.get('/', async (req, res) => {
     try {
@@ -111,4 +116,6 @@ app.get('/', async (req, res) => {
 //     }
 // })
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
