@@ -5,13 +5,18 @@ import { Line } from "react-chartjs-2";
 import { Client } from "@notionhq/client";
 
 // Components
+import SideBar from "@/components/SideBar";
 import BarChart from "@/components/BarChart";
 import DoughnutChart from "@/components/DoughnutChart";
+import SankeyChart from "@/components/SankeyChart";
 
 export default function Home() {
   const [data, setData] = useState(null);
-  const [hasMore, setHasMore] = useState(false);
-  const [nextCursor, setNextCursor] = useState(null);
+  const [currentTab, setCurrentTab] = useState("Home");
+
+  const handleTabChange = (tab: string) => {
+    setCurrentTab(tab);
+  };
 
 
   useEffect(() => {
@@ -61,10 +66,17 @@ export default function Home() {
 
 
   return (
-    <main className="flex flex-col items-center">
-      <h1 className="text-6xl font-bold">Summer 2024 Internship Application Tracker</h1>
-      
-      <div className="w-full flex flex-row justify-center space-x-8">
+    <div className="bg-white w-full h-[100vh] flex flex-row">
+      <SideBar onTabChange={handleTabChange} />
+      <div>
+        {currentTab}
+        <BarChart data={data}/>
+        <DoughnutChart data={data}/>
+      </div>
+
+
+
+      {/* <div className="w-full flex flex-row justify-center space-x-8">
         <div className="bg-gray-300 rounded-2xl p-8 w-auto h-[600px] m-8">
           <h1 className="text-4xl font-bold">Number of Applications</h1>
           <BarChart data={data}/>
@@ -74,8 +86,8 @@ export default function Home() {
           <h1 className="text-4xl font-bold">Position Types</h1>
           <DoughnutChart data={data}/>
         </div>
-      </div>
-{/*       
+      </div> */}
+      {/*       
 
       <div className="bg-gray-200 rounded-2xl p-8 w-full h-[500px]">
         <h1 className="text-4xl font-bold">State Location</h1>
@@ -88,6 +100,6 @@ export default function Home() {
       </div> */}
       
       
-    </main>
+    </div>
   );
 }
