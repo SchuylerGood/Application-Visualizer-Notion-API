@@ -1,34 +1,39 @@
 import React, { Component } from 'react'
 import { Chart as ChartJS, registerables } from 'chart.js';
-import { Chart, Bar } from 'react-chartjs-2'
+import { Chart, Doughnut  } from 'react-chartjs-2'
 ChartJS.register(...registerables);
 
-export default function BarChart(props: any) {
-    let numbers: {[key: string] : number} = {};
+export default function DoughnutChart(props: any) {
+    let categoryCounts: { [key: string]: number } = {};
 
     if (props.data) {
+        // Loop through the data and count occurrences of each category
         for (let i = 0; i < props.data.length; i++) {
-            let statuses = props.data[i].status;
-            statuses.forEach((status: string) => {
-                if (!numbers.hasOwnProperty(status)) {
-                    numbers[status] = 1;
+            let catName = props.data[i].category;
+
+            // for each category in catName add one to the count of each category
+            catName.forEach((cat: string) => {
+                if (!categoryCounts.hasOwnProperty(cat)) {
+                    categoryCounts[cat] = 1;
                 } else {
-                    numbers[status] += 1;
+                    // If the category name already exists in the counts object, increment its count
+                    categoryCounts[cat]++;
                 }
-            })
+            });
         }
     }
 
-    let labels = Object.keys(numbers);
-    let values = Object.values(numbers);
+    // If you need labels and values separately, you can extract them from the categoryCounts object
+    let labels = Object.keys(categoryCounts);
+    let values = Object.values(categoryCounts);
 
     return(
         <>
-            <Bar
+            <Doughnut
                 data={{
                     labels: labels,
                     datasets: [{
-                        label:"# of Positions",
+                        label: '# of Positions',
                         data: values,
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',  // Red
@@ -53,25 +58,7 @@ export default function BarChart(props: any) {
                         borderWidth: 2
                     }]
                 }}
-                options={{
-                    scales: {
-                        x: {
-                            type: 'category', // Specify the scale type as 'category' for the x-axis
-                            labels: labels,
-                            ticks: {
-                                font: {
-                                    size: 24
-                                }
-                            }
-                        },
-                        y: {
-                            beginAtZero: true // Optionally configure the y-axis scale
-                        },
-                    }
-                }}
             />
-
         </>
     )
 }
-
