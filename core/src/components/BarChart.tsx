@@ -3,33 +3,15 @@ import { Chart as ChartJS, registerables } from 'chart.js';
 import { Chart, Bar } from 'react-chartjs-2'
 ChartJS.register(...registerables);
 
-export default function BarChart(props: any) {
-    let numbers: {[key: string] : number} = {};
-
-    if (props.data) {
-        for (let i = 0; i < props.data.length; i++) {
-            let statuses = props.data[i].status;
-            statuses.forEach((status: string) => {
-                if (!numbers.hasOwnProperty(status)) {
-                    numbers[status] = 1;
-                } else {
-                    numbers[status] += 1;
-                }
-            })
-        }
-    }
-
-    let labels = Object.keys(numbers);
-    let values = Object.values(numbers);
-
+export default function BarChart(props: any) {    
     return(
-        <>
+        <div className='w-[900px]'>
             <Bar
                 data={{
-                    labels: labels,
+                    labels: props.labels,
                     datasets: [{
                         label:"# of Positions",
-                        data: values,
+                        data: props.values,
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',  // Red
                             'rgba(54, 162, 235, 0.2)',   // Blue
@@ -57,10 +39,10 @@ export default function BarChart(props: any) {
                     scales: {
                         x: {
                             type: 'category', // Specify the scale type as 'category' for the x-axis
-                            labels: labels,
+                            labels: props.labels,
                             ticks: {
                                 font: {
-                                    size: 24
+                                    size: 18
                                 }
                             }
                         },
@@ -70,8 +52,7 @@ export default function BarChart(props: any) {
                     }
                 }}
             />
-
-        </>
+        </div>
     )
 }
 

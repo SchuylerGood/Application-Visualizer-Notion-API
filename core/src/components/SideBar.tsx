@@ -26,59 +26,31 @@ export default function SideBar({ onTabChange }: SideBarProps) {
             </div>
             <div className="flex flex-col items-start space-y-3 py-4">
                 <button 
-                    className="
-                        flex items-start bg-gray-200 w-full px-8 py-4 rounded-lg 
-                        transition-all duration-300 hover:bg-white
-                    "
+                    className={`flex items-start ${currentTab === "Home" ? "bg-white" : "bg-gray-200"} w-full px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white`}
                     onClick={() => handleTabChange("Home")}
                 >
-                    <img
-                        className="w-8 h-8"
-                        src="icons/B_House.svg"
-                        alt="Home Icon"
-                    />
+                    <img className="w-8 h-8" src="icons/B_House.svg" alt="Home Icon"/>
                     <h2 className="text-2xl font-medium ml-4">Home</h2>
                 </button>
                 <button 
-                    className="
-                        flex items-start bg-gray-200 w-full px-8 py-4 rounded-lg 
-                        transition-all duration-300 hover:bg-white
-                    "
+                    className={`flex items-start ${currentTab === "Graphs" ? "bg-white" : "bg-gray-200"} w-full px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white`}
                     onClick={() => handleTabChange("Graphs")}
                 >
-                    <img
-                        className="w-8 h-8"
-                        src="icons/B_Graph.svg"
-                        alt="Graphs Icon"
-                    />
+                    <img className="w-8 h-8" src="icons/B_Graph.svg" alt="Graphs Icon"/>
                     <h2 className="text-2xl font-medium ml-4">Graphs</h2>
                 </button>
                 <button 
-                    className="
-                        flex items-start bg-gray-200 w-full px-8 py-4 rounded-lg 
-                        transition-all duration-300 hover:bg-white
-                    "
+                    className={`flex items-start ${currentTab === "Profile" ? "bg-white" : "bg-gray-200"} w-full px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white`}
                     onClick={() => handleTabChange("Profile")}
                 >
-                    <img
-                        className="w-8 h-8"
-                        src="icons/B_Profile.svg"
-                        alt="Profile Icon"
-                    />
+                    <img className="w-8 h-8" src="icons/B_Profile.svg" alt="Profile Icon"/>
                     <h2 className="text-2xl font-medium ml-4">Profile</h2>
                 </button>
                 <button 
-                    className="
-                        flex items-start bg-gray-200 w-full px-8 py-4 rounded-lg 
-                        transition-all duration-300 hover:bg-white
-                    "
+                    className={`flex items-start ${currentTab === "Settings" ? "bg-white" : "bg-gray-200"} w-full px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white`}
                     onClick={() => handleTabChange("Settings")}
                 >
-                    <img
-                        className="w-8 h-8"
-                        src="icons/B_Settings.svg"
-                        alt="Settings Icon"
-                    />
+                    <img className="w-8 h-8" src="icons/B_Settings.svg" alt="Settings Icon"/>
                     <h2 className="text-2xl font-medium ml-4">Settings</h2>
                 </button>
             </div>

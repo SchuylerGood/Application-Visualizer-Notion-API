@@ -6,6 +6,11 @@ import { Client } from "@notionhq/client";
 
 // Components
 import SideBar from "@/components/SideBar";
+import HomeTab from "@/components/tabs/HomeTab";
+import GraphsTab from "@/components/tabs/Graphs";
+import ProfileTab from "@/components/tabs/Profile";
+import SettingsTab from "@/components/tabs/Settings";
+
 import BarChart from "@/components/BarChart";
 import DoughnutChart from "@/components/DoughnutChart";
 import SankeyChart from "@/components/SankeyChart";
@@ -67,11 +72,18 @@ export default function Home() {
 
   return (
     <div className="bg-white w-full h-[100vh] flex flex-row">
-      <SideBar onTabChange={handleTabChange} />
-      <div>
-        {currentTab}
-        <BarChart data={data}/>
-        <DoughnutChart data={data}/>
+      <div className="w-96 h-full">
+        <SideBar onTabChange={handleTabChange} />
+      </div>
+      
+      <div className="w-full h-full">
+        {
+          currentTab === "Home" ? (<HomeTab data={data} />) :
+          currentTab === "Graphs" ? (<GraphsTab data={data} />) :
+          currentTab === "Profile" ? (<ProfileTab data={data} />) :
+          currentTab === "Settings" ? (<SettingsTab data={data} />) :
+          <></>
+        }
       </div>
 
 
