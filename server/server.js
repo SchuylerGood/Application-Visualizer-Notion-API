@@ -109,6 +109,24 @@ app.get('/', async (req, res) => {
     }
 });
 
+app.get('/times', async (req, res) => {
+    
+    try {
+        const data = await notion.readDatabase();
+        let results = [];
+
+        for (let i = 0; i < data.length; i++) {
+            // let time = data[i]["properties"]["DATE"]["date"]["start"];            
+            // Push results to array
+            results.push(data[i]["created_time"]);
+        }
+
+        res.send(results);
+    } catch (error) {
+        console.error("Error:", error);
+        res.send(error);
+    }
+});
 
 // app.get('/api/data', async (req, res) => {
 //     try{

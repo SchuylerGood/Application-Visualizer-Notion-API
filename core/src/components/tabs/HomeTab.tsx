@@ -50,7 +50,7 @@ export default function HomeTab(props: any) {
     let values = processData(props.data)[1];
 
     return (
-        <div className="w-full h-full m-12 flex flex-col mt-44">
+        <div className="w-full h-full p-12 flex flex-col">
             <div>
                 <h1 className="text-3xl font-bold">Welcome Back, John</h1>
                 <p>Welcome to your Dashboard home page! You can find all your analytics and insights here on how your job search is going</p>
@@ -78,8 +78,12 @@ export default function HomeTab(props: any) {
                     <p>Add Data</p>
                 </a>
             </div>
-            <div className="flex flex-row space-x-8">
-                <div className="bg-gray-200 flex flex-col w-fit rounded-lg p-8 border">
+            <div className="flex flex-row flex-wrap space-y-8 space-x-8">
+                <div className="ml-8 mt-8 bg-gray-200 flex flex-col w-fit rounded-lg p-8 border">
+                    <h1 className="text-4xl font-bold mb-1">Job Type</h1>
+                    <DoughnutChart data={props.data}/>
+                </div>
+                <div className=" bg-gray-200 flex flex-col w-fit rounded-lg p-8 border">
                     <h1 className="text-4xl font-bold mb-1">Jobs Applied</h1>
                     <BarChart labels={labels.slice(0,4)} values={values.slice(0,4)}/>
                 </div>

@@ -71,8 +71,8 @@ export default function Home() {
 
 
   return (
-    <div className="bg-white w-full h-[100vh] flex flex-row">
-      <div className="w-96 h-full">
+    <div className="bg-white w-full flex flex-row">
+      <div className="w-96">
         <SideBar onTabChange={handleTabChange} />
       </div>
       
